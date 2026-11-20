@@ -1,0 +1,49 @@
+
+{
+  "sport": "football",
+  "competition": "Premier League",
+  "updated_at": "2026-11-19T21:01:29.270145+00:00",
+  "model": "Poisson - ostatnie 5 meczow",
+  "predictions": [
+    {
+      "date": "2026-11-21T12:30:00Z",
+      "home_team": "Manchester City FC",
+      "away_team": "Fulham FC",
+      "probabilities": {
+        "home": 34.1,
+        "draw": 27.0,
+        "away": 38.9
+      }
+    },
+    {
+      "date": "2026-11-21T15:00:00Z",
+      "home_team": "Chelsea FC",
+      "away_team": "Leeds United FC",
+      "probabilities": {
+        "home": 53.8,
+        "draw": 27.5,
+        "away": 18.7
+      }
+    },
+    {
+      "date": "2026-11-21T15:00:00Z",
+      "home_team": "Aston Villa FC",
+      "away_team": "Sunderland AFC",
+      "probabilities": {
+        "home": 53.8,
+        "draw": 24.0,
+        "away": 22.2
+      }
+    },
+    {
+      "date": "2026-11-21T15:00:00Z",
+      "home_team": "AFC Bournemouth",
+      "away_team": "Nottingham Forest FC",
+      "probabilities": {
+        "home": 53.8,
+        "draw": 23.1,
+        "away": 23.1
+      }
+    }
+  ]
+}
