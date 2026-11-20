@@ -1,7 +1,7 @@
 {
   "sport": "football",
   "competition": "Multiple Leagues",
-  "updated_at": "2026-11-20T10:27:01.686067+00:00",
+  "updated_at": "2026-11-20T12:33:33.371433+00:00",
   "model": "Poisson - ostatnie 5 meczow",
   "leagues": {
     "PL": "Premier League",
@@ -31,6 +31,18 @@
       }
     },
     {
+      "date": "2026-11-20T20:00:00Z",
+      "home_team": "Athletic Club",
+      "away_team": "RCD Espanyol de Barcelona",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 45.4,
+        "draw": 30.0,
+        "away": 24.6
+      }
+    },
+    {
       "date": "2026-11-21T12:30:00Z",
       "home_team": "Manchester City FC",
       "away_team": "Fulham FC",
@@ -43,10 +55,22 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-20T10:22:53Z",
+        "updated_at": "2026-11-20T12:29:44Z",
         "home": 1.28,
         "draw": 4.9,
         "away": 6.5
+      }
+    },
+    {
+      "date": "2026-11-21T13:00:00Z",
+      "home_team": "Deportivo Alavés",
+      "away_team": "RC Deportivo La Coruña",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 23.7,
+        "draw": 25.0,
+        "away": 51.3
       }
     },
     {
@@ -62,7 +86,7 @@
       },
       "odds": {
         "bookmaker": "1xBet",
-        "updated_at": "2026-11-20T10:23:42Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 1.93,
         "draw": 3.92,
         "away": 4.12
@@ -81,7 +105,7 @@
       },
       "odds": {
         "bookmaker": "Marathon Bet",
-        "updated_at": "2026-11-20T10:23:32Z",
+        "updated_at": "2026-11-20T12:29:17Z",
         "home": 1.8,
         "draw": 3.92,
         "away": 4.3
@@ -100,7 +124,7 @@
       },
       "odds": {
         "bookmaker": "Marathon Bet",
-        "updated_at": "2026-11-20T10:23:32Z",
+        "updated_at": "2026-11-20T12:29:17Z",
         "home": 1.93,
         "draw": 3.75,
         "away": 3.88
@@ -119,10 +143,10 @@
       },
       "odds": {
         "bookmaker": "Unibet (SE)",
-        "updated_at": "2026-11-20T10:23:09Z",
-        "home": 1.55,
+        "updated_at": "2026-11-20T12:29:44Z",
+        "home": 1.53,
         "draw": 4.7,
-        "away": 6.1
+        "away": 6.5
       }
     },
     {
@@ -138,7 +162,7 @@
       },
       "odds": {
         "bookmaker": "1xBet",
-        "updated_at": "2026-11-20T10:23:42Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 2.55,
         "draw": 3.77,
         "away": 2.79
@@ -166,6 +190,18 @@
         "home": 58.8,
         "draw": 23.8,
         "away": 17.4
+      }
+    },
+    {
+      "date": "2026-11-21T15:15:00Z",
+      "home_team": "Rayo Vallecano de Madrid",
+      "away_team": "Valencia CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 40.6,
+        "draw": 28.9,
+        "away": 30.5
       }
     },
     {
@@ -205,10 +241,22 @@
       },
       "odds": {
         "bookmaker": "1xBet",
-        "updated_at": "2026-11-20T10:23:42Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 5.64,
         "draw": 4.41,
         "away": 1.64
+      }
+    },
+    {
+      "date": "2026-11-21T17:30:00Z",
+      "home_team": "Sevilla FC",
+      "away_team": "Real Betis Balompié",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 27.5,
+        "draw": 21.0,
+        "away": 51.5
       }
     },
     {
@@ -297,6 +345,18 @@
     },
     {
       "date": "2026-11-21T20:00:00Z",
+      "home_team": "Real Madrid CF",
+      "away_team": "RC Celta de Vigo",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 69.7,
+        "draw": 22.1,
+        "away": 8.2
+      }
+    },
+    {
+      "date": "2026-11-21T20:00:00Z",
       "home_team": "Telstar 1963",
       "away_team": "PEC Zwolle",
       "competition": "Eredivisie",
@@ -368,6 +428,25 @@
       }
     },
     {
+      "date": "2026-11-22T13:00:00Z",
+      "home_team": "FC Barcelona",
+      "away_team": "Villarreal CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 60.6,
+        "draw": 21.2,
+        "away": 18.3
+      },
+      "odds": {
+        "bookmaker": "Pinnacle",
+        "updated_at": "2026-11-20T12:30:01Z",
+        "home": 1.21,
+        "draw": 7.09,
+        "away": 13.44
+      }
+    },
+    {
       "date": "2026-11-22T13:30:00Z",
       "home_team": "Sparta Rotterdam",
       "away_team": "AZ",
@@ -404,7 +483,7 @@
       },
       "odds": {
         "bookmaker": "1xBet",
-        "updated_at": "2026-11-20T10:23:42Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 6.63,
         "draw": 4.72,
         "away": 1.53
@@ -420,6 +499,18 @@
         "home": 66.5,
         "draw": 18.5,
         "away": 15.0
+      }
+    },
+    {
+      "date": "2026-11-22T15:15:00Z",
+      "home_team": "Real Racing Club de Santander",
+      "away_team": "Real Sociedad de Fútbol",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 23.3,
+        "draw": 20.9,
+        "away": 55.8
       }
     },
     {
@@ -459,10 +550,29 @@
       },
       "odds": {
         "bookmaker": "1xBet",
-        "updated_at": "2026-11-20T10:23:42Z",
-        "home": 1.8,
-        "draw": 4.41,
-        "away": 4.31
+        "updated_at": "2026-11-20T12:29:58Z",
+        "home": 1.78,
+        "draw": 4.42,
+        "away": 4.42
+      }
+    },
+    {
+      "date": "2026-11-22T17:30:00Z",
+      "home_team": "CA Osasuna",
+      "away_team": "Málaga CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 40.6,
+        "draw": 23.0,
+        "away": 36.4
+      },
+      "odds": {
+        "bookmaker": "Pinnacle",
+        "updated_at": "2026-11-20T12:30:01Z",
+        "home": 1.86,
+        "draw": 3.65,
+        "away": 4.53
       }
     },
     {
@@ -487,6 +597,18 @@
         "home": 72.2,
         "draw": 16.3,
         "away": 11.5
+      }
+    },
+    {
+      "date": "2026-11-22T20:00:00Z",
+      "home_team": "Getafe CF",
+      "away_team": "Club Atlético de Madrid",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 14.0,
+        "draw": 22.3,
+        "away": 63.7
       }
     },
     {
@@ -526,10 +648,22 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-20T10:22:53Z",
+        "updated_at": "2026-11-20T12:29:29Z",
         "home": 2.1,
         "draw": 3.55,
         "away": 3.1
+      }
+    },
+    {
+      "date": "2026-11-23T20:00:00Z",
+      "home_team": "Levante UD",
+      "away_team": "Elche CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 30.2,
+        "draw": 34.0,
+        "away": 35.8
       }
     },
     {
@@ -653,10 +787,22 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:42Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 2.74,
         "draw": 3.53,
         "away": 2.51
+      }
+    },
+    {
+      "date": "2026-11-27T20:00:00Z",
+      "home_team": "Levante UD",
+      "away_team": "Real Racing Club de Santander",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 41.6,
+        "draw": 26.2,
+        "away": 32.2
       }
     },
     {
@@ -696,6 +842,18 @@
       }
     },
     {
+      "date": "2026-11-28T13:00:00Z",
+      "home_team": "Real Betis Balompié",
+      "away_team": "Rayo Vallecano de Madrid",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 46.9,
+        "draw": 23.8,
+        "away": 29.4
+      }
+    },
+    {
       "date": "2026-11-28T15:00:00Z",
       "home_team": "Leeds United FC",
       "away_team": "Coventry City FC",
@@ -708,7 +866,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 1.56,
         "draw": 4.27,
         "away": 5.61
@@ -727,7 +885,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 1.99,
         "draw": 3.8,
         "away": 3.55
@@ -743,6 +901,18 @@
         "home": 36.4,
         "draw": 23.0,
         "away": 40.6
+      }
+    },
+    {
+      "date": "2026-11-28T15:15:00Z",
+      "home_team": "Málaga CF",
+      "away_team": "Athletic Club",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 21.7,
+        "draw": 22.3,
+        "away": 56.0
       }
     },
     {
@@ -806,10 +976,22 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 3.44,
         "draw": 3.88,
         "away": 2.0
+      }
+    },
+    {
+      "date": "2026-11-28T17:30:00Z",
+      "home_team": "Elche CF",
+      "away_team": "Club Atlético de Madrid",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 21.5,
+        "draw": 34.2,
+        "away": 44.2
       }
     },
     {
@@ -886,6 +1068,18 @@
     },
     {
       "date": "2026-11-28T20:00:00Z",
+      "home_team": "Real Madrid CF",
+      "away_team": "Deportivo Alavés",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 77.4,
+        "draw": 15.2,
+        "away": 7.4
+      }
+    },
+    {
+      "date": "2026-11-28T20:00:00Z",
       "home_team": "SC Cambuur-Leeuwarden",
       "away_team": "Sparta Rotterdam",
       "competition": "Eredivisie",
@@ -945,10 +1139,29 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 3.52,
         "draw": 3.59,
         "away": 2.06
+      }
+    },
+    {
+      "date": "2026-11-29T13:00:00Z",
+      "home_team": "Valencia CF",
+      "away_team": "CA Osasuna",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 39.4,
+        "draw": 25.8,
+        "away": 34.8
+      },
+      "odds": {
+        "bookmaker": "Pinnacle",
+        "updated_at": "2026-11-20T12:30:01Z",
+        "home": 2.13,
+        "draw": 3.34,
+        "away": 3.59
       }
     },
     {
@@ -1000,7 +1213,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 2.64,
         "draw": 3.53,
         "away": 2.6
@@ -1019,7 +1232,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 1.56,
         "draw": 4.46,
         "away": 5.39
@@ -1038,7 +1251,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 3.28,
         "draw": 3.33,
         "away": 2.26
@@ -1057,10 +1270,22 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 1.84,
         "draw": 3.87,
         "away": 4.01
+      }
+    },
+    {
+      "date": "2026-11-29T15:15:00Z",
+      "home_team": "RC Deportivo La Coruña",
+      "away_team": "FC Barcelona",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 16.9,
+        "draw": 18.9,
+        "away": 64.3
       }
     },
     {
@@ -1100,10 +1325,22 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-20T10:23:43Z",
+        "updated_at": "2026-11-20T12:29:58Z",
         "home": 2.06,
         "draw": 3.76,
         "away": 3.36
+      }
+    },
+    {
+      "date": "2026-11-29T17:30:00Z",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Villarreal CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 21.1,
+        "draw": 39.3,
+        "away": 39.6
       }
     },
     {
@@ -1167,6 +1404,18 @@
       }
     },
     {
+      "date": "2026-11-29T20:00:00Z",
+      "home_team": "Real Sociedad de Fútbol",
+      "away_team": "Sevilla FC",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 55.7,
+        "draw": 20.3,
+        "away": 24.0
+      }
+    },
+    {
       "date": "2026-11-29T20:30:00Z",
       "home_team": "FC Porto",
       "away_team": "Sporting Clube de Portugal",
@@ -1224,6 +1473,18 @@
         "home": 26.2,
         "draw": 24.9,
         "away": 49.0
+      }
+    },
+    {
+      "date": "2026-11-30T20:00:00Z",
+      "home_team": "RCD Espanyol de Barcelona",
+      "away_team": "Getafe CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 51.1,
+        "draw": 27.4,
+        "away": 21.4
       }
     },
     {
