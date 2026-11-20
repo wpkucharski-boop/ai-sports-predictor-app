@@ -6,34 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1020">
   <title>AI Sports Predictor</title>
+
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
-      padding: 24px 16px 60px;
+      padding: 20px 14px 60px;
       background: #0b1020;
       color: #f5f7ff;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
     }
 
     .container {
-      max-width: 760px;
+      max-width: 800px;
       margin: auto;
     }
 
     header {
       text-align: center;
-      padding: 32px 0 30px;
+      padding: 25px 0 20px;
     }
 
     h1 {
       color: #5dbbff;
       font-size: clamp(25px, 7vw, 38px);
-      margin: 0 0 15px;
+      margin: 0 0 12px;
     }
 
-    .subtitle, .muted {
+    .subtitle,
+    .muted {
       color: #9ca8bd;
     }
 
@@ -41,16 +46,16 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 10px;
-      margin: 24px 0;
+      margin: 22px 0;
     }
 
     .sport {
       border: 1px solid #39465d;
       border-radius: 13px;
-      padding: 18px 8px;
+      padding: 17px 7px;
       color: white;
       background: #202a3c;
-      font-size: 17px;
+      font-size: 16px;
       cursor: pointer;
     }
 
@@ -61,21 +66,89 @@
 
     .panel {
       background: #202a3c;
-      border-radius: 20px;
-      padding: 22px 18px;
+      border-radius: 18px;
+      padding: 20px 15px;
       margin-top: 18px;
     }
 
     h2 {
-      font-size: 23px;
+      font-size: 22px;
       margin: 0 0 12px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .summary-box {
+      background: #151e30;
+      border-radius: 12px;
+      padding: 15px 8px;
+      text-align: center;
+    }
+
+    .summary-box strong {
+      display: block;
+      color: #5dbbff;
+      font-size: 27px;
+    }
+
+    .summary-box span {
+      display: block;
+      color: #aebad0;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+    .filters {
+      display: grid;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .filters select,
+    .filters input {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid #43546e;
+      border-radius: 10px;
+      background: #101b2d;
+      color: white;
+      padding: 11px;
+      font-size: 16px;
+    }
+
+    .check-row {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: #dce7f7;
+      font-size: 14px;
+      padding: 5px 0;
+    }
+
+    .check-row input {
+      width: 19px;
+      height: 19px;
+      accent-color: #5dbbff;
     }
 
     .match {
       background: #151e30;
       border-radius: 14px;
-      padding: 18px 14px;
-      margin-top: 18px;
+      padding: 17px 12px;
+      margin-top: 16px;
+    }
+
+    .league-label {
+      color: #ffd37a;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
     }
 
     .date {
@@ -85,37 +158,18 @@
     }
 
     .teams {
-      font-size: 19px;
+      font-size: 18px;
       font-weight: 700;
       text-align: center;
       line-height: 1.5;
-      margin: 12px 0 18px;
+      margin: 12px 0 17px;
+      overflow-wrap: anywhere;
     }
 
-    .probabilities {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
-    }
-
-    .prob {
-      background: #0b1020;
-      border-radius: 11px;
-      padding: 14px 4px;
-      text-align: center;
-      min-width: 0;
-    }
-
-    .prob span {
-      display: block;
-      margin-bottom: 7px;
-      color: #dce7f7;
-    }
-
-    .prob strong {
-      display: block;
-      color: #5dbbff;
-      font-size: clamp(17px, 5vw, 23px);
+    .vs {
+      color: #9ca8bd;
+      font-size: 13px;
+      font-weight: 400;
     }
 
     .section-title {
@@ -125,32 +179,48 @@
       margin: 18px 0 10px;
     }
 
+    .probabilities,
     .odds-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
+      gap: 7px;
+    }
+
+    .prob,
+    .odd {
+      border-radius: 11px;
+      padding: 13px 3px;
+      text-align: center;
+      min-width: 0;
+    }
+
+    .prob {
+      background: #0b1020;
     }
 
     .odd {
       background: #27354a;
       border: 1px solid #40516a;
-      border-radius: 11px;
-      padding: 12px 4px;
-      text-align: center;
-      min-width: 0;
     }
 
+    .prob span,
     .odd span {
       display: block;
-      color: #c7d5e9;
+      margin-bottom: 7px;
+      color: #dce7f7;
       font-size: 13px;
-      margin-bottom: 6px;
+    }
+
+    .prob strong {
+      display: block;
+      color: #5dbbff;
+      font-size: clamp(16px, 5vw, 23px);
     }
 
     .odd strong {
       display: block;
       color: #ffd37a;
-      font-size: 21px;
+      font-size: 20px;
     }
 
     .bookmaker {
@@ -170,19 +240,24 @@
 
     .comparison-row {
       display: grid;
-      grid-template-columns: 26px 1fr auto;
-      gap: 8px;
+      grid-template-columns: 24px 1fr auto;
+      gap: 6px;
       align-items: center;
-      padding: 6px 0;
-      font-size: 13px;
+      padding: 7px 0;
+      font-size: 12px;
     }
 
     .comparison-row strong {
       font-variant-numeric: tabular-nums;
     }
 
-    .positive { color: #71d9ac; }
-    .negative { color: #ff9a9a; }
+    .positive {
+      color: #71d9ac;
+    }
+
+    .negative {
+      color: #ff9a9a;
+    }
 
     .small {
       font-size: 12px;
@@ -194,7 +269,7 @@
       margin-top: 20px;
       color: #ffca55;
       line-height: 1.6;
-      font-size: 14px;
+      font-size: 13px;
     }
 
     .status {
@@ -203,9 +278,24 @@
     }
 
     .updated {
-      font-size: 13px;
+      font-size: 12px;
       color: #aebad0;
       margin-top: 8px;
+    }
+
+    .empty {
+      background: #151e30;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      color: #aebad0;
+      line-height: 1.6;
+    }
+
+    .count {
+      color: #aebad0;
+      font-size: 13px;
+      margin: 12px 0;
     }
 
     footer {
@@ -216,49 +306,80 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
+
     <header>
       <h1>🏆 AI SPORTS PREDICTOR</h1>
-      <p class="subtitle">Inteligentna analiza sportowa</p>
+      <p class="subtitle">
+        Inteligentna analiza sportowa
+      </p>
     </header>
 
     <div class="sports">
+
       <button class="sport active"
-              onclick="showSport('football', this)">
+        onclick="showSport('football', this)">
         ⚽ Piłka nożna
       </button>
+
       <button class="sport"
-              onclick="showSport('volleyball', this)">
+        onclick="showSport('volleyball', this)">
         🏐 Siatkówka
       </button>
+
       <button class="sport"
-              onclick="showSport('basketball', this)">
+        onclick="showSport('basketball', this)">
         🏀 Koszykówka
       </button>
+
       <button class="sport"
-              onclick="showSport('tennis', this)">
+        onclick="showSport('tennis', this)">
         🎾 Tenis
       </button>
+
     </div>
 
     <section class="panel" id="content">
-      <h2>⚽ Prognozy Premier League</h2>
+      <h2>⚽ Prognozy piłkarskie</h2>
       <p class="status">Ładowanie prognoz...</p>
     </section>
 
     <footer>
       AI Sports Predictor • Model eksperymentalny
     </footer>
+
   </div>
 
   <script>
     const content = document.getElementById("content");
 
+    let footballData = null;
+    let selectedLeague = "ALL";
+    let searchText = "";
+    let onlyWithOdds = false;
+    let activeSport = "football";
+
     const sportNames = {
       volleyball: "🏐 Siatkówka",
       basketball: "🏀 Koszykówka",
       tennis: "🎾 Tenis"
+    };
+
+    const leagueNames = {
+      PL: "Premier League",
+      PD: "La Liga",
+      BL1: "Bundesliga",
+      SA: "Serie A",
+      FL1: "Ligue 1",
+      DED: "Eredivisie",
+      PPL: "Primeira Liga",
+      ELC: "Championship",
+      BSA: "Brazilian Serie A",
+      CL: "Champions League",
+      WC: "World Cup",
+      EC: "European Championship"
     };
 
     function escapeHTML(value) {
@@ -279,7 +400,7 @@
 
       const date = new Date(value);
 
-      if (isNaN(date.getTime())) {
+      if (Number.isNaN(date.getTime())) {
         return "Data nieznana";
       }
 
@@ -294,7 +415,11 @@
     }
 
     function percentage(value) {
-      if (value === null || value === undefined || value === "") {
+      if (
+        value === null ||
+        value === undefined ||
+        value === ""
+      ) {
         return "–";
       }
 
@@ -314,12 +439,86 @@
     }
 
     function validOdds(odds) {
-      if (!odds) return false;
+      if (!odds || typeof odds !== "object") {
+        return false;
+      }
 
       return ["home", "draw", "away"].every(key => {
         const value = Number(odds[key]);
-        return Number.isFinite(value) && value > 1;
+
+        return odds[key] !== null &&
+          odds[key] !== undefined &&
+          odds[key] !== "" &&
+          Number.isFinite(value) &&
+          value > 1;
       });
+    }
+
+    function getLeagueCode(match, data) {
+      const candidates = [
+        match.competition_code,
+        match.league_code,
+        match.competition,
+        match.league
+      ];
+
+      for (const value of candidates) {
+        if (value && typeof value === "object") {
+          const code = value.code || value.id;
+
+          if (code) {
+            return String(code);
+          }
+
+          if (value.name) {
+            candidates.push(value.name);
+          }
+
+          continue;
+        }
+
+        if (!value) continue;
+
+        const text = String(value).trim();
+
+        if (leagueNames[text]) {
+          return text;
+        }
+
+        const knownCode = Object.keys(leagueNames).find(
+          code =>
+            leagueNames[code].toLowerCase() ===
+            text.toLowerCase()
+        );
+
+        if (knownCode) {
+          return knownCode;
+        }
+
+        return text;
+      }
+
+      if (data.competition_code) {
+        return String(data.competition_code);
+      }
+
+      if (data.competition) {
+        const name = String(data.competition);
+
+        const code = Object.keys(leagueNames).find(
+          key =>
+            leagueNames[key].toLowerCase() ===
+            name.toLowerCase()
+        );
+
+        return code || name;
+      }
+
+      return "Nieznana liga";
+    }
+
+    function getLeagueName(code) {
+      return leagueNames[code] || code;
     }
 
     function renderComparison(probabilities, odds) {
@@ -339,13 +538,27 @@
       if (total <= 0) return "";
 
       const rows = keys.map(([key, label]) => {
-        const ai = Number(probabilities[key]);
-        const market = (1 / Number(odds[key])) / total * 100;
+        const raw = probabilities[key];
+
+        if (
+          raw === null ||
+          raw === undefined ||
+          raw === ""
+        ) {
+          return "";
+        }
+
+        const ai = Number(raw);
 
         if (!Number.isFinite(ai)) return "";
 
+        const market =
+          (1 / Number(odds[key])) / total * 100;
+
         const difference = ai - market;
+
         const sign = difference > 0 ? "+" : "";
+
         const cssClass = difference >= 0
           ? "positive"
           : "negative";
@@ -364,16 +577,21 @@
         `;
       }).join("");
 
+      if (!rows.trim()) return "";
+
       return `
         <div class="comparison">
-          <div class="section-title" style="margin-top:0">
+          <div class="section-title"
+            style="margin-top:0">
             📊 AI kontra rynek
           </div>
+
           ${rows}
+
           <p class="small">
             Różnica w punktach procentowych.
-            Prawdopodobieństwa rynkowe są
-            znormalizowane po usunięciu marży.
+            Prawdopodobieństwa rynku
+            znormalizowano po usunięciu marży.
             Dodatnia różnica nie oznacza
             gwarantowanego zysku.
           </p>
@@ -417,21 +635,333 @@
         <div class="bookmaker">
           Bukmacher:
           ${escapeHTML(odds.bookmaker || "Nieznany")}
+
           ${odds.updated_at
-            ? `<div>Aktualizacja kursów:
-                ${escapeHTML(formatDate(odds.updated_at))}
-               </div>`
+            ? `
+              <div>
+                Aktualizacja kursów:
+                ${escapeHTML(
+                  formatDate(odds.updated_at)
+                )}
+              </div>
+            `
             : ""}
         </div>
 
-        ${renderComparison(match.probabilities || {}, odds)}
+        ${renderComparison(
+          match.probabilities || {},
+          odds
+        )}
       `;
     }
 
-    async function loadFootball() {
+    function renderMatch(match) {
+      const p = match.probabilities || {};
+
+      const league = getLeagueName(
+        match._leagueCode
+      );
+
+      return `
+        <article class="match">
+
+          <div class="league-label">
+            🏆 ${escapeHTML(league)}
+          </div>
+
+          <div class="date">
+            ${escapeHTML(formatDate(match.date))}
+          </div>
+
+          <div class="teams">
+            ${escapeHTML(
+              match.home_team || "Gospodarze"
+            )}
+
+            <div class="vs">VS</div>
+
+            ${escapeHTML(
+              match.away_team || "Goście"
+            )}
+          </div>
+
+          <div class="section-title">
+            🤖 Prawdopodobieństwo AI
+          </div>
+
+          <div class="probabilities">
+
+            <div class="prob">
+              <span>1</span>
+              <strong>${percentage(p.home)}</strong>
+            </div>
+
+            <div class="prob">
+              <span>X</span>
+              <strong>${percentage(p.draw)}</strong>
+            </div>
+
+            <div class="prob">
+              <span>2</span>
+              <strong>${percentage(p.away)}</strong>
+            </div>
+
+          </div>
+
+          ${renderOdds(match)}
+
+        </article>
+      `;
+    }
+
+    function getMatches() {
+      if (!footballData) return [];
+
+      return footballData.predictions.map(match => ({
+        ...match,
+        _leagueCode: getLeagueCode(
+          match,
+          footballData
+        )
+      }));
+    }
+
+    function renderFootball() {
+      if (!footballData) return;
+
+      const allMatches = getMatches();
+
+      const leagues = [...new Set(
+        allMatches.map(match => match._leagueCode)
+      )].sort((a, b) =>
+        getLeagueName(a).localeCompare(
+          getLeagueName(b),
+          "pl"
+        )
+      );
+
+      const oddsCount = allMatches.filter(
+        match => validOdds(match.odds)
+      ).length;
+
+      const options = leagues.map(code => `
+        <option value="${escapeHTML(code)}"
+          ${selectedLeague === code ? "selected" : ""}>
+          ${escapeHTML(getLeagueName(code))}
+        </option>
+      `).join("");
+
       content.innerHTML = `
-        <h2>⚽ Prognozy Premier League</h2>
-        <p class="status">Ładowanie prognoz...</p>
+        <h2>⚽ Wszystkie ligi</h2>
+
+        <p class="muted">
+          Model:
+          ${escapeHTML(
+            footballData.model || "AI"
+          )}
+        </p>
+
+        <p class="updated">
+          Aktualizacja danych:
+          ${escapeHTML(
+            formatDate(footballData.updated_at)
+          )}
+        </p>
+
+        <div class="summary">
+
+          <div class="summary-box">
+            <strong>${allMatches.length}</strong>
+            <span>Prognozowane mecze</span>
+          </div>
+
+          <div class="summary-box">
+            <strong>${leagues.length}</strong>
+            <span>Dostępne ligi</span>
+          </div>
+
+          <div class="summary-box">
+            <strong>${oddsCount}</strong>
+            <span>Mecze z kursami</span>
+          </div>
+
+          <div class="summary-box">
+            <strong id="visibleCount">0</strong>
+            <span>Widoczne mecze</span>
+          </div>
+
+        </div>
+
+        <div class="filters">
+
+          <label for="leagueSelect">
+            🏆 Wybierz ligę
+          </label>
+
+          <select id="leagueSelect">
+            <option value="ALL">
+              Wszystkie ligi
+            </option>
+            ${options}
+          </select>
+
+          <label for="matchSearch">
+            🔎 Szukaj drużyny
+          </label>
+
+          <input
+            id="matchSearch"
+            type="search"
+            placeholder="Np. Chelsea, Barcelona..."
+          >
+
+          <label class="check-row">
+            <input
+              id="oddsOnly"
+              type="checkbox"
+            >
+            Pokaż tylko mecze z kursami
+          </label>
+
+        </div>
+
+        <p class="count" id="matchCount"></p>
+
+        <div id="matchesList"></div>
+
+        <p class="notice">
+          ⚠️ Prognozy są eksperymentalne.
+          Nie stanowią gwarancji wyniku
+          ani rekomendacji zakładów.
+          Kursy mogą się zmieniać.
+        </p>
+      `;
+
+      const leagueSelect =
+        document.getElementById("leagueSelect");
+
+      const matchSearch =
+        document.getElementById("matchSearch");
+
+      const oddsOnly =
+        document.getElementById("oddsOnly");
+
+      leagueSelect.value = selectedLeague;
+      matchSearch.value = searchText;
+      oddsOnly.checked = onlyWithOdds;
+
+      leagueSelect.addEventListener(
+        "change",
+        event => {
+          selectedLeague = event.target.value;
+          updateMatches();
+        }
+      );
+
+      matchSearch.addEventListener(
+        "input",
+        event => {
+          searchText = event.target.value;
+          updateMatches();
+        }
+      );
+
+      oddsOnly.addEventListener(
+        "change",
+        event => {
+          onlyWithOdds = event.target.checked;
+          updateMatches();
+        }
+      );
+
+      updateMatches();
+    }
+
+    function updateMatches() {
+      if (!footballData) return;
+
+      let matches = getMatches();
+
+      if (selectedLeague !== "ALL") {
+        matches = matches.filter(
+          match =>
+            match._leagueCode === selectedLeague
+        );
+      }
+
+      if (searchText.trim()) {
+        const query = searchText
+          .trim()
+          .toLocaleLowerCase("pl");
+
+        matches = matches.filter(match => {
+          const text = [
+            match.home_team || "",
+            match.away_team || "",
+            getLeagueName(match._leagueCode)
+          ].join(" ").toLocaleLowerCase("pl");
+
+          return text.includes(query);
+        });
+      }
+
+      if (onlyWithOdds) {
+        matches = matches.filter(
+          match => validOdds(match.odds)
+        );
+      }
+
+      matches.sort((a, b) => {
+        const dateA = new Date(a.date).getTime();
+        const dateB = new Date(b.date).getTime();
+
+        const safeA = Number.isFinite(dateA)
+          ? dateA
+          : Number.MAX_SAFE_INTEGER;
+
+        const safeB = Number.isFinite(dateB)
+          ? dateB
+          : Number.MAX_SAFE_INTEGER;
+
+        return safeA - safeB;
+      });
+
+      document.getElementById(
+        "visibleCount"
+      ).textContent = matches.length;
+
+      document.getElementById(
+        "matchCount"
+      ).textContent =
+        "Wyświetlane mecze: " + matches.length;
+
+      const list = document.getElementById(
+        "matchesList"
+      );
+
+      if (!matches.length) {
+        list.innerHTML = `
+          <div class="empty">
+            Nie znaleziono meczów
+            spełniających wybrane filtry.
+          </div>
+        `;
+        return;
+      }
+
+      list.innerHTML = matches.map(
+        renderMatch
+      ).join("");
+    }
+
+    async function loadFootball() {
+      activeSport = "football";
+
+      content.innerHTML = `
+        <h2>⚽ Prognozy piłkarskie</h2>
+        <p class="status">
+          Ładowanie prognoz...
+        </p>
       `;
 
       try {
@@ -441,92 +971,31 @@
         );
 
         if (!response.ok) {
-          throw new Error("Nie można pobrać prognoz");
+          throw new Error(
+            "Nie można pobrać prognoz"
+          );
         }
 
         const data = await response.json();
 
         if (!Array.isArray(data.predictions)) {
-          throw new Error("Nieprawidłowy format danych");
+          throw new Error(
+            "Nieprawidłowy format danych"
+          );
         }
 
-        if (!data.predictions.length) {
-          content.innerHTML = `
-            <h2>⚽ Prognozy Premier League</h2>
-            <p class="status">
-              Brak dostępnych prognoz na najbliższe mecze.
-            </p>
-          `;
-          return;
+        footballData = data;
+
+        if (activeSport === "football") {
+          renderFootball();
         }
 
-        const matches = data.predictions.map(match => {
-          const p = match.probabilities || {};
-
-          return `
-            <article class="match">
-              <div class="date">
-                ${escapeHTML(formatDate(match.date))}
-              </div>
-
-              <div class="teams">
-                ${escapeHTML(match.home_team || "Gospodarze")}
-                <div>vs</div>
-                ${escapeHTML(match.away_team || "Goście")}
-              </div>
-
-              <div class="section-title">
-                🤖 Prawdopodobieństwo AI
-              </div>
-
-              <div class="probabilities">
-                <div class="prob">
-                  <span>1</span>
-                  <strong>${percentage(p.home)}</strong>
-                </div>
-
-                <div class="prob">
-                  <span>X</span>
-                  <strong>${percentage(p.draw)}</strong>
-                </div>
-
-                <div class="prob">
-                  <span>2</span>
-                  <strong>${percentage(p.away)}</strong>
-                </div>
-              </div>
-
-              ${renderOdds(match)}
-            </article>
-          `;
-        }).join("");
-
-        content.innerHTML = `
-          <h2>
-            ⚽ ${escapeHTML(data.competition || "Premier League")}
-          </h2>
-
-          <p class="muted">
-            Model: ${escapeHTML(data.model || "AI")}
-          </p>
-
-          <p class="updated">
-            Aktualizacja danych:
-            ${escapeHTML(formatDate(data.updated_at))}
-          </p>
-
-          ${matches}
-
-          <p class="notice">
-            ⚠️ Prognozy są eksperymentalne.
-            Nie stanowią gwarancji wyniku ani
-            rekomendacji zakładów.
-            Kursy mogą się zmieniać.
-          </p>
-        `;
       } catch (error) {
+        if (activeSport !== "football") return;
+
         content.innerHTML = `
-          <h2>⚽ Prognozy Premier League</h2>
+          <h2>⚽ Prognozy piłkarskie</h2>
+
           <p class="status">
             Nie udało się pobrać prognoz.
             Spróbuj odświeżyć aplikację później.
@@ -536,19 +1005,32 @@
     }
 
     function showSport(sport, button) {
-      document.querySelectorAll(".sport").forEach(item => {
+      activeSport = sport;
+
+      document.querySelectorAll(
+        ".sport"
+      ).forEach(item => {
         item.classList.remove("active");
       });
 
       button.classList.add("active");
 
       if (sport === "football") {
-        loadFootball();
+        if (footballData) {
+          renderFootball();
+        } else {
+          loadFootball();
+        }
         return;
       }
 
       content.innerHTML = `
-        <h2>${escapeHTML(sportNames[sport] || "Sport")}</h2>
+        <h2>
+          ${escapeHTML(
+            sportNames[sport] || "Sport"
+          )}
+        </h2>
+
         <p class="status">
           Przygotowujemy model i źródła danych
           dla tej dyscypliny.
