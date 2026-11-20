@@ -1,8 +1,8 @@
 {
   "sport": "football",
   "competition": "Premier League",
-  "updated_at": "2026-11-20T07:32:33.528013+00:00",
-  "model": "Poisson - ostatnie 5 meczow",
+  "updated_at": "2026-11-20T08:29:38.670989+00:00",
+  "model": "Poisson – ostatnie 5 meczów",
   "predictions": [
     {
       "date": "2026-11-21T12:30:00Z",
