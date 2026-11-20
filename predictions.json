@@ -1,8 +1,7 @@
-
 {
   "sport": "football",
   "competition": "Premier League",
-  "updated_at": "2026-11-19T21:01:29.270145+00:00",
+  "updated_at": "2026-11-20T07:32:33.528013+00:00",
   "model": "Poisson - ostatnie 5 meczow",
   "predictions": [
     {
@@ -43,6 +42,166 @@
         "home": 53.8,
         "draw": 23.1,
         "away": 23.1
+      }
+    },
+    {
+      "date": "2026-11-21T15:00:00Z",
+      "home_team": "Tottenham Hotspur FC",
+      "away_team": "Ipswich Town FC",
+      "probabilities": {
+        "home": 51.4,
+        "draw": 24.0,
+        "away": 24.6
+      }
+    },
+    {
+      "date": "2026-11-21T15:00:00Z",
+      "home_team": "Coventry City FC",
+      "away_team": "Crystal Palace FC",
+      "probabilities": {
+        "home": 57.8,
+        "draw": 20.2,
+        "away": 22.0
+      }
+    },
+    {
+      "date": "2026-11-21T17:30:00Z",
+      "home_team": "Newcastle United FC",
+      "away_team": "Arsenal FC",
+      "probabilities": {
+        "home": 13.2,
+        "draw": 27.4,
+        "away": 59.4
+      }
+    },
+    {
+      "date": "2026-11-22T14:00:00Z",
+      "home_team": "Hull City AFC",
+      "away_team": "Brighton & Hove Albion FC",
+      "probabilities": {
+        "home": 15.0,
+        "draw": 23.5,
+        "away": 61.4
+      }
+    },
+    {
+      "date": "2026-11-22T16:30:00Z",
+      "home_team": "Liverpool FC",
+      "away_team": "Manchester United FC",
+      "probabilities": {
+        "home": 51.4,
+        "draw": 23.1,
+        "away": 25.4
+      }
+    },
+    {
+      "date": "2026-11-23T20:00:00Z",
+      "home_team": "Brentford FC",
+      "away_team": "Everton FC",
+      "probabilities": {
+        "home": 36.8,
+        "draw": 26.4,
+        "away": 36.8
+      }
+    },
+    {
+      "date": "2026-11-27T20:00:00Z",
+      "home_team": "Nottingham Forest FC",
+      "away_team": "Chelsea FC",
+      "probabilities": {
+        "home": 19.8,
+        "draw": 24.0,
+        "away": 56.3
+      }
+    },
+    {
+      "date": "2026-11-28T15:00:00Z",
+      "home_team": "Leeds United FC",
+      "away_team": "Coventry City FC",
+      "probabilities": {
+        "home": 32.2,
+        "draw": 26.2,
+        "away": 41.6
+      }
+    },
+    {
+      "date": "2026-11-28T15:00:00Z",
+      "home_team": "Manchester United FC",
+      "away_team": "Brentford FC",
+      "probabilities": {
+        "home": 29.4,
+        "draw": 23.8,
+        "away": 46.9
+      }
+    },
+    {
+      "date": "2026-11-28T17:30:00Z",
+      "home_team": "Ipswich Town FC",
+      "away_team": "Aston Villa FC",
+      "probabilities": {
+        "home": 32.8,
+        "draw": 22.0,
+        "away": 45.1
+      }
+    },
+    {
+      "date": "2026-11-29T12:00:00Z",
+      "home_team": "Everton FC",
+      "away_team": "Liverpool FC",
+      "probabilities": {
+        "home": 32.2,
+        "draw": 26.2,
+        "away": 41.6
+      }
+    },
+    {
+      "date": "2026-11-29T14:05:00Z",
+      "home_team": "Fulham FC",
+      "away_team": "AFC Bournemouth",
+      "probabilities": {
+        "home": 29.6,
+        "draw": 26.6,
+        "away": 43.8
+      }
+    },
+    {
+      "date": "2026-11-29T14:05:00Z",
+      "home_team": "Brighton & Hove Albion FC",
+      "away_team": "Newcastle United FC",
+      "probabilities": {
+        "home": 64.1,
+        "draw": 23.2,
+        "away": 12.7
+      }
+    },
+    {
+      "date": "2026-11-29T14:05:00Z",
+      "home_team": "Sunderland AFC",
+      "away_team": "Tottenham Hotspur FC",
+      "probabilities": {
+        "home": 12.2,
+        "draw": 25.8,
+        "away": 62.1
+      }
+    },
+    {
+      "date": "2026-11-29T14:05:00Z",
+      "home_team": "Crystal Palace FC",
+      "away_team": "Hull City AFC",
+      "probabilities": {
+        "home": 23.1,
+        "draw": 23.1,
+        "away": 53.8
+      }
+    },
+    {
+      "date": "2026-11-29T16:30:00Z",
+      "home_team": "Arsenal FC",
+      "away_team": "Manchester City FC",
+      "probabilities": {
+        "home": 51.3,
+        "draw": 26.1,
+        "away": 22.6
       }
     }
   ]
