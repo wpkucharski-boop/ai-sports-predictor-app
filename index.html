@@ -4,150 +4,344 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1220">
+  <meta name="theme-color" content="#0b1020">
   <title>AI Sports Predictor</title>
   <style>
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
-      background: #0b1220;
-      color: white;
-      font-family: Arial, sans-serif;
-      padding: 20px;
+      padding: 24px 16px 60px;
+      background: #0b1020;
+      color: #f5f7ff;
+      font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
     }
-    header { text-align: center; padding: 22px 0; }
-    h1 { color: #38bdf8; font-size: 27px; }
-    .subtitle { color: #94a3b8; font-size: 14px; }
+
+    .container {
+      max-width: 760px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 32px 0 30px;
+    }
+
+    h1 {
+      color: #5dbbff;
+      font-size: clamp(25px, 7vw, 38px);
+      margin: 0 0 15px;
+    }
+
+    .subtitle, .muted {
+      color: #9ca8bd;
+    }
+
     .sports {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 10px;
-      margin: 25px 0;
-    }
-    button {
-      padding: 16px 8px;
-      border: 1px solid #334155;
-      border-radius: 12px;
-      background: #1e293b;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    button.active {
-      background: #0369a1;
-      border-color: #38bdf8;
-    }
-    .card {
-      background: #1e293b;
-      border-radius: 16px;
-      padding: 20px;
-      margin-top: 16px;
-    }
-    h2 { font-size: 20px; }
-    .muted { color: #94a3b8; }
-    .match {
-      font-size: 21px;
-      font-weight: bold;
-      text-align: center;
       margin: 24px 0;
     }
+
+    .sport {
+      border: 1px solid #39465d;
+      border-radius: 13px;
+      padding: 18px 8px;
+      color: white;
+      background: #202a3c;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    .sport.active {
+      background: #126da3;
+      border-color: #5dbbff;
+    }
+
+    .panel {
+      background: #202a3c;
+      border-radius: 20px;
+      padding: 22px 18px;
+      margin-top: 18px;
+    }
+
+    h2 {
+      font-size: 23px;
+      margin: 0 0 12px;
+    }
+
+    .match {
+      background: #151e30;
+      border-radius: 14px;
+      padding: 18px 14px;
+      margin-top: 18px;
+    }
+
+    .teams {
+      font-size: 19px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.5;
+      margin: 12px 0 18px;
+    }
+
+    .date {
+      color: #aebad0;
+      font-size: 13px;
+      text-align: center;
+    }
+
     .probabilities {
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 8px;
     }
+
     .prob {
-      flex: 1;
+      background: #0b1020;
+      border-radius: 11px;
+      padding: 14px 4px;
       text-align: center;
-      background: #0f172a;
-      padding: 14px 5px;
-      border-radius: 10px;
     }
+
+    .prob span {
+      display: block;
+      margin-bottom: 7px;
+      color: #dce7f7;
+    }
+
     .prob strong {
       display: block;
-      color: #38bdf8;
-      font-size: 25px;
+      color: #5dbbff;
+      font-size: 23px;
+    }
+
+    .notice {
+      margin-top: 20px;
+      color: #ffca55;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    .status {
+      color: #aebad0;
+      line-height: 1.6;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: #aebad0;
       margin-top: 8px;
     }
-    .notice {
-      color: #fbbf24;
-      font-size: 13px;
-      line-height: 1.6;
-      margin-top: 20px;
-    }
+
     footer {
       text-align: center;
-      color: #64748b;
-      font-size: 12px;
       margin-top: 35px;
+      color: #738198;
+      font-size: 13px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>🏆 AI SPORTS PREDICTOR</h1>
-  <div class="subtitle">Inteligentna analiza sportowa</div>
-</header>
+<div class="container">
 
-<div class="sports">
-  <button class="active" onclick="showSport('football',this)">⚽ Piłka nożna</button>
-  <button onclick="showSport('volleyball',this)">🏐 Siatkówka</button>
-  <button onclick="showSport('basketball',this)">🏀 Koszykówka</button>
-  <button onclick="showSport('tennis',this)">🎾 Tenis</button>
+  <header>
+    <h1>🏆 AI SPORTS PREDICTOR</h1>
+    <p class="subtitle">Inteligentna analiza sportowa</p>
+  </header>
+
+  <div class="sports">
+    <button class="sport active" onclick="showSport('football', this)">
+      ⚽ Piłka nożna
+    </button>
+    <button class="sport" onclick="showSport('volleyball', this)">
+      🏐 Siatkówka
+    </button>
+    <button class="sport" onclick="showSport('basketball', this)">
+      🏀 Koszykówka
+    </button>
+    <button class="sport" onclick="showSport('tennis', this)">
+      🎾 Tenis
+    </button>
+  </div>
+
+  <section class="panel" id="content">
+    <h2>⚽ Prognozy Premier League</h2>
+    <p class="status">Ładowanie prognoz...</p>
+  </section>
+
+  <footer>
+    AI Sports Predictor • Model eksperymentalny
+  </footer>
+
 </div>
 
-<main id="content"></main>
-
-<footer>AI Sports Predictor • Wersja demonstracyjna</footer>
-
 <script>
-const sections = {
-  football: `
-    <div class="card">
-      <h2>⚽ Prognoza meczu</h2>
-      <p class="muted">Przykładowa analiza modelu</p>
-      <div class="match">Arsenal — Chelsea</div>
-      <div class="probabilities">
-        <div class="prob">1<br><strong>52%</strong></div>
-        <div class="prob">X<br><strong>26%</strong></div>
-        <div class="prob">2<br><strong>22%</strong></div>
-      </div>
-      <p class="notice">
-        ⚠️ To dane demonstracyjne, a nie aktualna
-        prognoza ani rekomendacja zakładu.
+  const content = document.getElementById("content");
+
+  const sportNames = {
+    volleyball: "🏐 Siatkówka",
+    basketball: "🏀 Koszykówka",
+    tennis: "🎾 Tenis"
+  };
+
+  function escapeHTML(value) {
+    return String(value).replace(/[&<>"']/g, char => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    })[char]);
+  }
+
+  function formatDate(value) {
+    const date = new Date(value);
+
+    if (isNaN(date.getTime())) {
+      return "Data nieznana";
+    }
+
+    return date.toLocaleString("pl-PL", {
+      timeZone: "Europe/Warsaw",
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+  }
+
+  function percentage(value) {
+    const number = Number(value);
+    return Number.isFinite(number)
+      ? number.toFixed(1).replace(".", ",") + "%"
+      : "—";
+  }
+
+  async function loadFootball() {
+    content.innerHTML = `
+      <h2>⚽ Prognozy Premier League</h2>
+      <p class="status">Ładowanie prognoz...</p>
+    `;
+
+    try {
+      const response = await fetch(
+        "./predictions.json?t=" + Date.now(),
+        { cache: "no-store" }
+      );
+
+      if (!response.ok) {
+        throw new Error("Brak pliku predictions.json");
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data.predictions)) {
+        throw new Error("Nieprawidłowy format prognoz");
+      }
+
+      if (!data.predictions.length) {
+        content.innerHTML = `
+          <h2>⚽ Prognozy Premier League</h2>
+          <p class="status">
+            Model nie znalazł obecnie nadchodzących meczów.
+          </p>
+        `;
+        return;
+      }
+
+      const matches = data.predictions.map(match => {
+        const p = match.probabilities || {};
+
+        return `
+          <article class="match">
+            <div class="date">
+              ${escapeHTML(formatDate(match.date))}
+            </div>
+
+            <div class="teams">
+              ${escapeHTML(match.home_team || "Gospodarze")}
+              <br>—<br>
+              ${escapeHTML(match.away_team || "Goście")}
+            </div>
+
+            <div class="probabilities">
+              <div class="prob">
+                <span>1</span>
+                <strong>${percentage(p.home)}</strong>
+              </div>
+
+              <div class="prob">
+                <span>X</span>
+                <strong>${percentage(p.draw)}</strong>
+              </div>
+
+              <div class="prob">
+                <span>2</span>
+                <strong>${percentage(p.away)}</strong>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join("");
+
+      content.innerHTML = `
+        <h2>⚽ ${escapeHTML(data.competition || "Piłka nożna")}</h2>
+
+        <p class="muted">
+          Model: ${escapeHTML(data.model || "Eksperymentalny")}
+        </p>
+
+        <p class="updated">
+          Aktualizacja danych:
+          ${escapeHTML(formatDate(data.updated_at))}
+        </p>
+
+        ${matches}
+
+        <p class="notice">
+          ⚠️ Prognozy są eksperymentalne.
+          Nie stanowią gwarancji wyniku ani
+          rekomendacji zakładów.
+        </p>
+      `;
+
+    } catch (error) {
+      content.innerHTML = `
+        <h2>⚽ Prognozy Premier League</h2>
+        <p class="status">
+          ⏳ Czekamy na plik predictions.json.
+          Wkrótce pojawią się tutaj obliczenia modelu.
+        </p>
+      `;
+    }
+  }
+
+  function showSport(sport, button) {
+    document.querySelectorAll(".sport").forEach(item => {
+      item.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    if (sport === "football") {
+      loadFootball();
+      return;
+    }
+
+    content.innerHTML = `
+      <h2>${sportNames[sport]}</h2>
+      <p class="status">
+        Przygotowujemy model i źródła danych
+        dla tej dyscypliny.
       </p>
-    </div>
-  `,
-  volleyball: `
-    <div class="card">
-      <h2>🏐 Siatkówka</h2>
-      <p class="muted">Moduł prognoz w przygotowaniu.</p>
-    </div>
-  `,
-  basketball: `
-    <div class="card">
-      <h2>🏀 Koszykówka</h2>
-      <p class="muted">Moduł prognoz w przygotowaniu.</p>
-    </div>
-  `,
-  tennis: `
-    <div class="card">
-      <h2>🎾 Tenis</h2>
-      <p class="muted">Moduł prognoz w przygotowaniu.</p>
-    </div>
-  `
-};
+    `;
+  }
 
-function showSport(sport, button) {
-  document.getElementById("content").innerHTML = sections[sport];
-  document.querySelectorAll(".sports button").forEach(
-    b => b.classList.remove("active")
-  );
-  button.classList.add("active");
-}
-
-showSport("football", document.querySelector(".sports button"));
+  loadFootball();
 </script>
 
 </body>
