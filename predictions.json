@@ -1,7 +1,7 @@
 {
   "sport": "football",
   "competition": "Multiple Leagues",
-  "updated_at": "2026-11-23T12:50:31.577205+00:00",
+  "updated_at": "2026-11-23T13:10:35.754209+00:00",
   "model": "Poisson - ostatnie 5 meczow",
   "leagues": {
     "PL": "Premier League",
@@ -31,7 +31,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T12:46:55Z",
+        "updated_at": "2026-11-23T13:06:24Z",
         "home": 2.2,
         "draw": 3.5,
         "away": 2.95
@@ -146,7 +146,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 2.81,
         "draw": 3.41,
         "away": 2.62
@@ -177,7 +177,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 1.54,
         "draw": 4.5,
         "away": 6.15
@@ -196,7 +196,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 2.06,
         "draw": 3.85,
         "away": 3.5
@@ -239,7 +239,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 3.51,
         "draw": 3.91,
         "away": 2.04
@@ -354,7 +354,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 3.67,
         "draw": 3.69,
         "away": 2.05
@@ -409,7 +409,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 2.67,
         "draw": 3.57,
         "away": 2.62
@@ -428,7 +428,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 1.57,
         "draw": 4.53,
         "away": 5.5
@@ -447,7 +447,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 3.54,
         "draw": 3.42,
         "away": 2.17
@@ -466,7 +466,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 1.84,
         "draw": 3.94,
         "away": 4.13
@@ -509,7 +509,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 1.97,
         "draw": 3.85,
         "away": 3.7
@@ -624,7 +624,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T12:47:07Z",
+        "updated_at": "2026-11-23T13:07:09Z",
         "home": 2.27,
         "draw": 3.59,
         "away": 3.05
@@ -643,7 +643,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T12:46:37Z",
+        "updated_at": "2026-11-23T13:07:23Z",
         "home": 1.32,
         "draw": 4.2,
         "away": 5.4
@@ -662,7 +662,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T12:46:55Z",
+        "updated_at": "2026-11-23T13:06:25Z",
         "home": 3.45,
         "draw": 3.45,
         "away": 1.98
@@ -681,7 +681,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T12:46:37Z",
+        "updated_at": "2026-11-23T13:07:23Z",
         "home": 1.45,
         "draw": 4.0,
         "away": 4.2
@@ -700,7 +700,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T12:46:37Z",
+        "updated_at": "2026-11-23T13:07:23Z",
         "home": 1.39,
         "draw": 4.0,
         "away": 4.8
@@ -719,7 +719,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T12:46:37Z",
+        "updated_at": "2026-11-23T13:07:23Z",
         "home": 1.75,
         "draw": 3.3,
         "away": 3.2
@@ -738,7 +738,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T12:46:37Z",
+        "updated_at": "2026-11-23T13:07:23Z",
         "home": 3.7,
         "draw": 3.4,
         "away": 1.62
@@ -757,7 +757,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (FR)",
-        "updated_at": "2026-11-23T12:46:53Z",
+        "updated_at": "2026-11-23T13:05:21Z",
         "home": 2.3,
         "draw": 3.45,
         "away": 2.25
@@ -776,7 +776,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T12:46:55Z",
+        "updated_at": "2026-11-23T13:06:25Z",
         "home": 2.35,
         "draw": 3.55,
         "away": 2.6
