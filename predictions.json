@@ -1,7 +1,7 @@
 {
   "sport": "football",
   "competition": "Multiple Leagues",
-  "updated_at": "2026-11-23T11:18:58.696860+00:00",
+  "updated_at": "2026-11-23T11:39:42.178992+00:00",
   "model": "Poisson - ostatnie 5 meczow",
   "leagues": {
     "PL": "Premier League",
@@ -31,22 +31,10 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T11:15:02Z",
+        "updated_at": "2026-11-23T11:35:52Z",
         "home": 2.2,
         "draw": 3.45,
         "away": 3.0
-      }
-    },
-    {
-      "date": "2026-11-27T19:00:00Z",
-      "home_team": "FC Groningen",
-      "away_team": "Willem II Tilburg",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 53.2,
-        "draw": 17.4,
-        "away": 29.4
       }
     },
     {
@@ -74,7 +62,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 2.84,
         "draw": 3.41,
         "away": 2.6
@@ -93,7 +81,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 1.54,
         "draw": 4.5,
         "away": 6.15
@@ -112,22 +100,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 2.06,
         "draw": 3.85,
         "away": 3.5
-      }
-    },
-    {
-      "date": "2026-11-28T15:30:00Z",
-      "home_team": "SBV Excelsior",
-      "away_team": "Telstar 1963",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 20.9,
-        "draw": 16.7,
-        "away": 62.5
       }
     },
     {
@@ -155,22 +131,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 3.51,
         "draw": 3.91,
         "away": 2.04
-      }
-    },
-    {
-      "date": "2026-11-28T17:45:00Z",
-      "home_team": "PSV",
-      "away_team": "Go Ahead Eagles",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 74.2,
-        "draw": 14.4,
-        "away": 11.5
       }
     },
     {
@@ -222,30 +186,6 @@
       }
     },
     {
-      "date": "2026-11-28T20:00:00Z",
-      "home_team": "SC Cambuur-Leeuwarden",
-      "away_team": "Sparta Rotterdam",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 62.0,
-        "draw": 16.1,
-        "away": 21.9
-      }
-    },
-    {
-      "date": "2026-11-29T11:15:00Z",
-      "home_team": "ADO Den Haag",
-      "away_team": "FC Utrecht",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 41.2,
-        "draw": 21.6,
-        "away": 37.2
-      }
-    },
-    {
       "date": "2026-11-29T12:00:00Z",
       "home_team": "Everton FC",
       "away_team": "Liverpool FC",
@@ -258,34 +198,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 3.64,
         "draw": 3.66,
         "away": 2.04
-      }
-    },
-    {
-      "date": "2026-11-29T13:30:00Z",
-      "home_team": "Fortuna Sittard",
-      "away_team": "SC Heerenveen",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 23.3,
-        "draw": 20.9,
-        "away": 55.8
-      }
-    },
-    {
-      "date": "2026-11-29T13:30:00Z",
-      "home_team": "Feyenoord Rotterdam",
-      "away_team": "AFC Ajax",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 22.6,
-        "draw": 18.2,
-        "away": 59.2
       }
     },
     {
@@ -313,7 +229,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 2.67,
         "draw": 3.57,
         "away": 2.62
@@ -332,7 +248,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 1.57,
         "draw": 4.53,
         "away": 5.5
@@ -351,7 +267,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 3.54,
         "draw": 3.42,
         "away": 2.17
@@ -370,22 +286,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 1.84,
         "draw": 3.94,
         "away": 4.13
-      }
-    },
-    {
-      "date": "2026-11-29T15:45:00Z",
-      "home_team": "PEC Zwolle",
-      "away_team": "AZ",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 47.2,
-        "draw": 22.2,
-        "away": 30.6
       }
     },
     {
@@ -413,22 +317,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 1.95,
         "draw": 3.88,
         "away": 3.73
-      }
-    },
-    {
-      "date": "2026-11-29T19:00:00Z",
-      "home_team": "NEC",
-      "away_team": "FC Twente '65",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 16.3,
-        "draw": 16.7,
-        "away": 67.0
       }
     },
     {
@@ -456,7 +348,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T11:15:46Z",
+        "updated_at": "2026-11-23T11:36:39Z",
         "home": 2.27,
         "draw": 3.59,
         "away": 3.05
@@ -475,7 +367,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T11:15:16Z",
+        "updated_at": "2026-11-23T11:36:08Z",
         "home": 1.32,
         "draw": 4.2,
         "away": 5.4
@@ -494,7 +386,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T11:15:02Z",
+        "updated_at": "2026-11-23T11:35:52Z",
         "home": 3.5,
         "draw": 3.5,
         "away": 1.94
@@ -513,7 +405,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T11:15:16Z",
+        "updated_at": "2026-11-23T11:36:08Z",
         "home": 1.45,
         "draw": 4.0,
         "away": 4.2
@@ -532,7 +424,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T11:15:16Z",
+        "updated_at": "2026-11-23T11:36:08Z",
         "home": 1.39,
         "draw": 4.0,
         "away": 4.8
@@ -551,7 +443,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T11:15:16Z",
+        "updated_at": "2026-11-23T11:36:08Z",
         "home": 1.72,
         "draw": 3.4,
         "away": 3.3
@@ -570,7 +462,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T11:15:16Z",
+        "updated_at": "2026-11-23T11:36:08Z",
         "home": 3.7,
         "draw": 3.5,
         "away": 1.61
@@ -589,7 +481,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (FR)",
-        "updated_at": "2026-11-23T11:14:48Z",
+        "updated_at": "2026-11-23T11:35:52Z",
         "home": 2.3,
         "draw": 3.45,
         "away": 2.25
@@ -608,22 +500,10 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T11:15:02Z",
+        "updated_at": "2026-11-23T11:35:52Z",
         "home": 2.35,
         "draw": 3.6,
         "away": 2.6
-      }
-    },
-    {
-      "date": "2026-12-04T19:00:00Z",
-      "home_team": "Telstar 1963",
-      "away_team": "FC Groningen",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 49.7,
-        "draw": 17.4,
-        "away": 32.9
       }
     },
     {
@@ -639,18 +519,6 @@
       }
     },
     {
-      "date": "2026-12-05T15:30:00Z",
-      "home_team": "Willem II Tilburg",
-      "away_team": "Feyenoord Rotterdam",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 21.4,
-        "draw": 16.4,
-        "away": 62.2
-      }
-    },
-    {
       "date": "2026-12-05T16:15:00Z",
       "home_team": "Lille OSC",
       "away_team": "AJ Auxerre",
@@ -660,30 +528,6 @@
         "home": 46.1,
         "draw": 27.0,
         "away": 26.9
-      }
-    },
-    {
-      "date": "2026-12-05T17:45:00Z",
-      "home_team": "Sparta Rotterdam",
-      "away_team": "NEC",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 36.2,
-        "draw": 20.1,
-        "away": 43.7
-      }
-    },
-    {
-      "date": "2026-12-05T19:00:00Z",
-      "home_team": "AZ",
-      "away_team": "PSV",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 23.2,
-        "draw": 17.8,
-        "away": 59.0
       }
     },
     {
@@ -735,54 +579,6 @@
       }
     },
     {
-      "date": "2026-12-05T20:00:00Z",
-      "home_team": "Fortuna Sittard",
-      "away_team": "PEC Zwolle",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 27.8,
-        "draw": 25.8,
-        "away": 46.4
-      }
-    },
-    {
-      "date": "2026-12-06T11:15:00Z",
-      "home_team": "SC Heerenveen",
-      "away_team": "SC Cambuur-Leeuwarden",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 46.0,
-        "draw": 18.4,
-        "away": 35.6
-      }
-    },
-    {
-      "date": "2026-12-06T13:30:00Z",
-      "home_team": "AFC Ajax",
-      "away_team": "FC Utrecht",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 61.5,
-        "draw": 18.3,
-        "away": 20.2
-      }
-    },
-    {
-      "date": "2026-12-06T13:30:00Z",
-      "home_team": "Go Ahead Eagles",
-      "away_team": "FC Twente '65",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 11.5,
-        "draw": 15.3,
-        "away": 73.2
-      }
-    },
-    {
       "date": "2026-12-06T14:00:00Z",
       "home_team": "ES Troyes AC",
       "away_team": "Olympique Lyonnais",
@@ -792,18 +588,6 @@
         "home": 37.6,
         "draw": 29.9,
         "away": 32.5
-      }
-    },
-    {
-      "date": "2026-12-06T15:45:00Z",
-      "home_team": "ADO Den Haag",
-      "away_team": "SBV Excelsior",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 63.9,
-        "draw": 18.4,
-        "away": 17.6
       }
     },
     {
@@ -843,18 +627,6 @@
       }
     },
     {
-      "date": "2026-12-12T15:30:00Z",
-      "home_team": "FC Utrecht",
-      "away_team": "Fortuna Sittard",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 28.4,
-        "draw": 22.3,
-        "away": 49.3
-      }
-    },
-    {
       "date": "2026-12-12T16:15:00Z",
       "home_team": "Paris Saint-Germain FC",
       "away_team": "Paris FC",
@@ -864,18 +636,6 @@
         "home": 45.3,
         "draw": 21.4,
         "away": 33.3
-      }
-    },
-    {
-      "date": "2026-12-12T17:45:00Z",
-      "home_team": "SC Heerenveen",
-      "away_team": "Go Ahead Eagles",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 71.2,
-        "draw": 15.8,
-        "away": 13.0
       }
     }
   ]
