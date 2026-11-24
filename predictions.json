@@ -1,7 +1,7 @@
 {
   "sport": "football",
   "competition": "Multiple Leagues",
-  "updated_at": "2026-11-23T13:38:36.373440+00:00",
+  "updated_at": "2026-11-24T07:43:10.922228+00:00",
   "model": "Poisson - ostatnie 5 meczow",
   "leagues": {
     "PL": "Premier League",
@@ -19,70 +19,99 @@
   },
   "predictions": [
     {
-      "date": "2026-11-23T20:00:00Z",
-      "home_team": "Brentford FC",
-      "away_team": "Everton FC",
-      "competition": "Premier League",
-      "competition_code": "PL",
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Cardiff City FC",
+      "away_team": "Preston North End FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
       "probabilities": {
-        "home": 36.8,
-        "draw": 26.4,
-        "away": 36.8
-      },
-      "odds": {
-        "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T13:34:50Z",
-        "home": 2.25,
-        "draw": 3.45,
-        "away": 2.9
+        "home": 38.7,
+        "draw": 22.6,
+        "away": 38.7
       }
     },
     {
-      "date": "2026-11-23T20:00:00Z",
-      "home_team": "Levante UD",
-      "away_team": "Elche CF",
-      "competition": "La Liga",
-      "competition_code": "PD",
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Middlesbrough FC",
+      "away_team": "Swansea City AFC",
+      "competition": "Championship",
+      "competition_code": "ELC",
       "probabilities": {
-        "home": 30.2,
-        "draw": 34.0,
-        "away": 35.8
+        "home": 62.3,
+        "draw": 19.7,
+        "away": 18.0
       }
     },
     {
-      "date": "2026-11-23T22:30:00Z",
-      "home_team": "SC Internacional",
-      "away_team": "EC Vitória",
-      "competition": "Brazilian Serie A",
-      "competition_code": "BSA",
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Portsmouth FC",
+      "away_team": "West Ham United FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
       "probabilities": {
-        "home": 46.1,
-        "draw": 27.0,
-        "away": 26.9
+        "home": 51.5,
+        "draw": 22.4,
+        "away": 26.2
       }
     },
     {
-      "date": "2026-11-23T23:00:00Z",
-      "home_team": "Botafogo FR",
-      "away_team": "São Paulo FC",
-      "competition": "Brazilian Serie A",
-      "competition_code": "BSA",
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Sheffield United FC",
+      "away_team": "Southampton FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
       "probabilities": {
-        "home": 23.0,
-        "draw": 28.7,
-        "away": 48.3
+        "home": 37.8,
+        "draw": 24.3,
+        "away": 37.8
       }
     },
     {
-      "date": "2026-11-24T00:00:00Z",
-      "home_team": "Santos FC",
-      "away_team": "Grêmio FBPA",
-      "competition": "Brazilian Serie A",
-      "competition_code": "BSA",
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Charlton Athletic FC",
+      "away_team": "Lincoln City FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
       "probabilities": {
-        "home": 40.6,
-        "draw": 28.9,
-        "away": 30.5
+        "home": 28.6,
+        "draw": 24.7,
+        "away": 46.7
+      }
+    },
+    {
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Bristol City FC",
+      "away_team": "Wrexham AFC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 20.0,
+        "draw": 26.2,
+        "away": 53.8
+      }
+    },
+    {
+      "date": "2026-11-24T19:45:00Z",
+      "home_team": "Norwich City FC",
+      "away_team": "Queens Park Rangers FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 57.7,
+        "draw": 19.7,
+        "away": 22.7
+      }
+    },
+    {
+      "date": "2026-11-24T20:00:00Z",
+      "home_team": "Wolverhampton Wanderers FC",
+      "away_team": "Derby County FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 67.4,
+        "draw": 19.4,
+        "away": 13.1
       }
     },
     {
@@ -95,6 +124,54 @@
         "home": 9.4,
         "draw": 18.3,
         "away": 72.4
+      }
+    },
+    {
+      "date": "2026-11-25T19:45:00Z",
+      "home_team": "Watford FC",
+      "away_team": "Blackburn Rovers FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 30.4,
+        "draw": 25.5,
+        "away": 44.1
+      }
+    },
+    {
+      "date": "2026-11-25T19:45:00Z",
+      "home_team": "Bolton Wanderers FC",
+      "away_team": "West Bromwich Albion FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 18.0,
+        "draw": 19.7,
+        "away": 62.3
+      }
+    },
+    {
+      "date": "2026-11-25T19:45:00Z",
+      "home_team": "Burnley FC",
+      "away_team": "Birmingham City FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 22.5,
+        "draw": 21.6,
+        "away": 55.9
+      }
+    },
+    {
+      "date": "2026-11-25T20:00:00Z",
+      "home_team": "Stoke City FC",
+      "away_team": "Millwall FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 61.4,
+        "draw": 23.5,
+        "away": 15.0
       }
     },
     {
@@ -116,9 +193,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 46.7,
-        "draw": 24.7,
-        "away": 28.6
+        "home": 44.4,
+        "draw": 24.5,
+        "away": 31.1
       }
     },
     {
@@ -131,6 +208,30 @@
         "home": 53.2,
         "draw": 17.4,
         "away": 29.4
+      }
+    },
+    {
+      "date": "2026-11-27T19:30:00Z",
+      "home_team": "SV Werder Bremen",
+      "away_team": "Borussia Mönchengladbach",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 58.4,
+        "draw": 22.1,
+        "away": 19.5
+      }
+    },
+    {
+      "date": "2026-11-27T19:45:00Z",
+      "home_team": "Venezia FC",
+      "away_team": "Bologna FC 1909",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 12.1,
+        "draw": 20.0,
+        "away": 68.0
       }
     },
     {
@@ -158,10 +259,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 2.81,
-        "draw": 3.41,
-        "away": 2.62
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 2.65,
+        "draw": 3.42,
+        "away": 2.78
       }
     },
     {
@@ -174,6 +275,18 @@
         "home": 39.4,
         "draw": 25.8,
         "away": 34.8
+      }
+    },
+    {
+      "date": "2026-11-27T20:00:00Z",
+      "home_team": "Southampton FC",
+      "away_team": "Middlesbrough FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 32.9,
+        "draw": 25.1,
+        "away": 42.0
       }
     },
     {
@@ -201,6 +314,42 @@
       }
     },
     {
+      "date": "2026-11-28T12:30:00Z",
+      "home_team": "Blackburn Rovers FC",
+      "away_team": "Charlton Athletic FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 46.9,
+        "draw": 23.8,
+        "away": 29.4
+      }
+    },
+    {
+      "date": "2026-11-28T12:30:00Z",
+      "home_team": "Lincoln City FC",
+      "away_team": "Wolverhampton Wanderers FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 19.8,
+        "draw": 24.0,
+        "away": 56.3
+      }
+    },
+    {
+      "date": "2026-11-28T12:30:00Z",
+      "home_team": "Preston North End FC",
+      "away_team": "Norwich City FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 12.3,
+        "draw": 17.1,
+        "away": 70.6
+      }
+    },
+    {
       "date": "2026-11-28T13:00:00Z",
       "home_team": "Real Betis Balompié",
       "away_team": "Rayo Vallecano de Madrid",
@@ -210,6 +359,66 @@
         "home": 41.1,
         "draw": 27.5,
         "away": 31.4
+      }
+    },
+    {
+      "date": "2026-11-28T14:00:00Z",
+      "home_team": "Frosinone Calcio",
+      "away_team": "Parma Calcio 1913",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 47.4,
+        "draw": 20.9,
+        "away": 31.7
+      }
+    },
+    {
+      "date": "2026-11-28T14:30:00Z",
+      "home_team": "1. FC Köln",
+      "away_team": "SV 07 Elversberg",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 37.4,
+        "draw": 25.3,
+        "away": 37.4
+      }
+    },
+    {
+      "date": "2026-11-28T14:30:00Z",
+      "home_team": "1. FSV Mainz 05",
+      "away_team": "1. FC Union Berlin",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 37.8,
+        "draw": 24.3,
+        "away": 37.8
+      }
+    },
+    {
+      "date": "2026-11-28T14:30:00Z",
+      "home_team": "SC Paderborn 07",
+      "away_team": "FC Schalke 04",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 36.8,
+        "draw": 31.8,
+        "away": 31.4
+      }
+    },
+    {
+      "date": "2026-11-28T14:30:00Z",
+      "home_team": "Hamburger SV",
+      "away_team": "FC Bayern München",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 16.9,
+        "draw": 18.9,
+        "away": 64.3
       }
     },
     {
@@ -225,10 +434,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 1.54,
-        "draw": 4.5,
-        "away": 6.15
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 1.51,
+        "draw": 4.63,
+        "away": 6.4
       }
     },
     {
@@ -238,16 +447,64 @@
       "competition": "Premier League",
       "competition_code": "PL",
       "probabilities": {
-        "home": 22.5,
-        "draw": 21.6,
-        "away": 55.9
+        "home": 16.0,
+        "draw": 19.4,
+        "away": 64.6
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 2.06,
-        "draw": 3.85,
-        "away": 3.5
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 2.13,
+        "draw": 3.79,
+        "away": 3.35
+      }
+    },
+    {
+      "date": "2026-11-28T15:00:00Z",
+      "home_team": "Wrexham AFC",
+      "away_team": "Portsmouth FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 29.5,
+        "draw": 30.6,
+        "away": 39.9
+      }
+    },
+    {
+      "date": "2026-11-28T15:00:00Z",
+      "home_team": "Queens Park Rangers FC",
+      "away_team": "Sheffield United FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 35.9,
+        "draw": 23.8,
+        "away": 40.3
+      }
+    },
+    {
+      "date": "2026-11-28T15:00:00Z",
+      "home_team": "Millwall FC",
+      "away_team": "Burnley FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 36.8,
+        "draw": 22.3,
+        "away": 40.9
+      }
+    },
+    {
+      "date": "2026-11-28T15:00:00Z",
+      "home_team": "Birmingham City FC",
+      "away_team": "Bolton Wanderers FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 60.6,
+        "draw": 21.2,
+        "away": 18.3
       }
     },
     {
@@ -311,6 +568,18 @@
       }
     },
     {
+      "date": "2026-11-28T17:00:00Z",
+      "home_team": "Torino FC",
+      "away_team": "SS Lazio",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 15.0,
+        "draw": 18.5,
+        "away": 66.5
+      }
+    },
+    {
       "date": "2026-11-28T17:30:00Z",
       "home_team": "Ipswich Town FC",
       "away_team": "Aston Villa FC",
@@ -323,10 +592,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 3.51,
-        "draw": 3.91,
-        "away": 2.04
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 3.82,
+        "draw": 3.97,
+        "away": 1.93
       }
     },
     {
@@ -336,9 +605,21 @@
       "competition": "La Liga",
       "competition_code": "PD",
       "probabilities": {
-        "home": 16.7,
-        "draw": 32.9,
-        "away": 50.4
+        "home": 18.5,
+        "draw": 30.8,
+        "away": 50.7
+      }
+    },
+    {
+      "date": "2026-11-28T17:30:00Z",
+      "home_team": "VfB Stuttgart",
+      "away_team": "Eintracht Frankfurt",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 31.4,
+        "draw": 27.5,
+        "away": 41.1
       }
     },
     {
@@ -363,6 +644,18 @@
         "home": 40.6,
         "draw": 28.9,
         "away": 30.5
+      }
+    },
+    {
+      "date": "2026-11-28T19:45:00Z",
+      "home_team": "FC Internazionale Milano",
+      "away_team": "Genoa CFC",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 33.5,
+        "draw": 24.2,
+        "away": 42.3
       }
     },
     {
@@ -456,9 +749,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 25.2,
-        "draw": 26.0,
-        "away": 48.8
+        "home": 23.7,
+        "draw": 25.0,
+        "away": 51.3
       }
     },
     {
@@ -474,22 +767,34 @@
       }
     },
     {
+      "date": "2026-11-29T11:30:00Z",
+      "home_team": "Udinese Calcio",
+      "away_team": "ACF Fiorentina",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 30.6,
+        "draw": 22.2,
+        "away": 47.2
+      }
+    },
+    {
       "date": "2026-11-29T12:00:00Z",
       "home_team": "Everton FC",
       "away_team": "Liverpool FC",
       "competition": "Premier League",
       "competition_code": "PL",
       "probabilities": {
-        "home": 18.5,
-        "draw": 22.9,
-        "away": 58.6
+        "home": 12.1,
+        "draw": 20.0,
+        "away": 68.0
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 3.67,
-        "draw": 3.69,
-        "away": 2.05
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 4.23,
+        "draw": 3.65,
+        "away": 1.92
       }
     },
     {
@@ -505,10 +810,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:21Z",
-        "home": 2.13,
-        "draw": 3.35,
-        "away": 3.79
+        "updated_at": "2026-11-24T07:39:45Z",
+        "home": 2.14,
+        "draw": 3.32,
+        "away": 3.8
       }
     },
     {
@@ -537,6 +842,18 @@
     },
     {
       "date": "2026-11-29T14:00:00Z",
+      "home_team": "US Sassuolo Calcio",
+      "away_team": "SSC Napoli",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 13.9,
+        "draw": 16.5,
+        "away": 69.6
+      }
+    },
+    {
+      "date": "2026-11-29T14:00:00Z",
       "home_team": "AJ Auxerre",
       "away_team": "Olympique de Marseille",
       "competition": "Ligue 1",
@@ -560,10 +877,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 2.67,
-        "draw": 3.57,
-        "away": 2.62
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 2.65,
+        "draw": 3.52,
+        "away": 2.72
       }
     },
     {
@@ -579,10 +896,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 1.57,
-        "draw": 4.53,
-        "away": 5.5
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 1.55,
+        "draw": 4.64,
+        "away": 5.77
       }
     },
     {
@@ -598,10 +915,10 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 3.54,
-        "draw": 3.42,
-        "away": 2.17
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 3.8,
+        "draw": 3.38,
+        "away": 2.12
       }
     },
     {
@@ -617,10 +934,22 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 1.84,
-        "draw": 3.94,
-        "away": 4.13
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 1.86,
+        "draw": 3.91,
+        "away": 4.16
+      }
+    },
+    {
+      "date": "2026-11-29T14:30:00Z",
+      "home_team": "SC Freiburg",
+      "away_team": "RB Leipzig",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 26.6,
+        "draw": 19.9,
+        "away": 53.5
       }
     },
     {
@@ -672,10 +1001,34 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
-        "home": 1.97,
-        "draw": 3.85,
-        "away": 3.7
+        "updated_at": "2026-11-24T07:39:41Z",
+        "home": 2.0,
+        "draw": 3.86,
+        "away": 3.67
+      }
+    },
+    {
+      "date": "2026-11-29T16:30:00Z",
+      "home_team": "TSG 1899 Hoffenheim",
+      "away_team": "FC Augsburg",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 49.4,
+        "draw": 21.6,
+        "away": 29.0
+      }
+    },
+    {
+      "date": "2026-11-29T17:00:00Z",
+      "home_team": "AS Roma",
+      "away_team": "AC Monza",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 67.9,
+        "draw": 15.5,
+        "away": 16.6
       }
     },
     {
@@ -700,6 +1053,18 @@
         "home": 64.1,
         "draw": 23.2,
         "away": 12.7
+      }
+    },
+    {
+      "date": "2026-11-29T18:30:00Z",
+      "home_team": "Borussia Dortmund",
+      "away_team": "Bayer 04 Leverkusen",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 42.0,
+        "draw": 25.1,
+        "away": 32.9
       }
     },
     {
@@ -733,9 +1098,21 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 23.0,
-        "draw": 28.7,
-        "away": 48.3
+        "home": 38.9,
+        "draw": 27.0,
+        "away": 34.1
+      }
+    },
+    {
+      "date": "2026-11-29T19:45:00Z",
+      "home_team": "Como 1907",
+      "away_team": "Juventus FC",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 34.1,
+        "draw": 27.0,
+        "away": 38.9
       }
     },
     {
@@ -781,9 +1158,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 51.3,
-        "draw": 25.0,
-        "away": 23.7
+        "home": 40.6,
+        "draw": 28.9,
+        "away": 30.5
       }
     },
     {
@@ -793,9 +1170,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 31.4,
-        "draw": 27.5,
-        "away": 41.1
+        "home": 31.1,
+        "draw": 24.5,
+        "away": 44.4
       }
     },
     {
@@ -820,6 +1197,30 @@
         "home": 28.6,
         "draw": 28.0,
         "away": 43.4
+      }
+    },
+    {
+      "date": "2026-11-30T17:30:00Z",
+      "home_team": "US Lecce",
+      "away_team": "Atalanta BC",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 25.2,
+        "draw": 19.3,
+        "away": 55.5
+      }
+    },
+    {
+      "date": "2026-11-30T19:45:00Z",
+      "home_team": "Cagliari Calcio",
+      "away_team": "AC Milan",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 15.8,
+        "draw": 18.1,
+        "away": 66.1
       }
     },
     {
@@ -871,7 +1272,7 @@
       },
       "odds": {
         "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-23T13:35:18Z",
+        "updated_at": "2026-11-24T07:39:41Z",
         "home": 2.27,
         "draw": 3.59,
         "away": 3.05
@@ -902,10 +1303,10 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T13:34:32Z",
+        "updated_at": "2026-11-24T07:40:00Z",
         "home": 1.32,
         "draw": 4.2,
-        "away": 5.4
+        "away": 5.5
       }
     },
     {
@@ -921,10 +1322,10 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T13:34:50Z",
-        "home": 3.45,
-        "draw": 3.45,
-        "away": 1.98
+        "updated_at": "2026-11-24T07:39:09Z",
+        "home": 3.75,
+        "draw": 3.55,
+        "away": 1.86
       }
     },
     {
@@ -940,9 +1341,9 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T13:34:31Z",
-        "home": 1.45,
-        "draw": 4.0,
+        "updated_at": "2026-11-24T07:40:00Z",
+        "home": 1.46,
+        "draw": 3.9,
         "away": 4.2
       }
     },
@@ -959,7 +1360,7 @@
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T13:34:32Z",
+        "updated_at": "2026-11-24T07:40:00Z",
         "home": 1.39,
         "draw": 4.0,
         "away": 4.8
@@ -972,13 +1373,13 @@
       "competition": "Premier League",
       "competition_code": "PL",
       "probabilities": {
-        "home": 44.1,
-        "draw": 25.5,
-        "away": 30.4
+        "home": 53.8,
+        "draw": 24.0,
+        "away": 22.2
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T13:34:32Z",
+        "updated_at": "2026-11-24T07:40:00Z",
         "home": 1.75,
         "draw": 3.3,
         "away": 3.2
@@ -991,16 +1392,16 @@
       "competition": "Premier League",
       "competition_code": "PL",
       "probabilities": {
-        "home": 21.4,
-        "draw": 27.4,
-        "away": 51.1
+        "home": 30.5,
+        "draw": 28.9,
+        "away": 40.6
       },
       "odds": {
         "bookmaker": "Unibet (FR)",
-        "updated_at": "2026-11-23T13:34:32Z",
+        "updated_at": "2026-11-24T07:40:00Z",
         "home": 3.7,
         "draw": 3.4,
-        "away": 1.62
+        "away": 1.61
       }
     },
     {
@@ -1016,7 +1417,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (FR)",
-        "updated_at": "2026-11-23T13:34:34Z",
+        "updated_at": "2026-11-24T07:39:43Z",
         "home": 2.3,
         "draw": 3.45,
         "away": 2.25
@@ -1035,7 +1436,7 @@
       },
       "odds": {
         "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-23T13:34:50Z",
+        "updated_at": "2026-11-24T07:39:08Z",
         "home": 2.35,
         "draw": 3.55,
         "away": 2.6
@@ -1060,9 +1461,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 32.2,
-        "draw": 26.2,
-        "away": 41.6
+        "home": 34.8,
+        "draw": 25.8,
+        "away": 39.4
       }
     },
     {
@@ -1096,9 +1497,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 48.8,
-        "draw": 26.0,
-        "away": 25.2
+        "home": 51.4,
+        "draw": 23.1,
+        "away": 25.4
       }
     },
     {
@@ -1120,9 +1521,64 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 37.6,
-        "draw": 29.9,
-        "away": 32.5
+        "home": 47.6,
+        "draw": 32.5,
+        "away": 20.0
+      }
+    },
+    {
+      "date": "2026-12-03T00:30:00Z",
+      "home_team": "SE Palmeiras",
+      "away_team": "Coritiba FBC",
+      "competition": "Brazilian Serie A",
+      "competition_code": "BSA",
+      "probabilities": {
+        "home": 51.0,
+        "draw": 29.0,
+        "away": 20.1
+      }
+    },
+    {
+      "date": "2026-12-03T00:30:00Z",
+      "home_team": "Clube do Remo",
+      "away_team": "SC Corinthians Paulista",
+      "competition": "Brazilian Serie A",
+      "competition_code": "BSA",
+      "probabilities": {
+        "home": 19.1,
+        "draw": 20.5,
+        "away": 60.3
+      }
+    },
+    {
+      "date": "2026-12-03T00:30:00Z",
+      "home_team": "Santos FC",
+      "away_team": "Botafogo FR",
+      "competition": "Brazilian Serie A",
+      "competition_code": "BSA",
+      "probabilities": {
+        "home": 48.3,
+        "draw": 28.7,
+        "away": 23.0
+      }
+    },
+    {
+      "date": "2026-12-03T20:00:00Z",
+      "home_team": "Tottenham Hotspur FC",
+      "away_team": "Fulham FC",
+      "competition": "Premier League",
+      "competition_code": "PL",
+      "probabilities": {
+        "home": 48.0,
+        "draw": 30.4,
+        "away": 21.6
+      },
+      "odds": {
+        "bookmaker": "Winamax (DE)",
+        "updated_at": "2026-11-24T07:39:10Z",
+        "home": 1.82,
+        "draw": 3.7,
+        "away": 3.75
       }
     },
     {
@@ -1135,6 +1591,30 @@
         "home": 49.7,
         "draw": 17.4,
         "away": 32.9
+      }
+    },
+    {
+      "date": "2026-12-04T19:30:00Z",
+      "home_team": "FC Bayern München",
+      "away_team": "SC Paderborn 07",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 62.3,
+        "draw": 19.7,
+        "away": 18.0
+      }
+    },
+    {
+      "date": "2026-12-04T19:45:00Z",
+      "home_team": "Bologna FC 1909",
+      "away_team": "AS Roma",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 29.6,
+        "draw": 19.0,
+        "away": 51.5
       }
     },
     {
@@ -1186,6 +1666,78 @@
       }
     },
     {
+      "date": "2026-12-05T14:00:00Z",
+      "home_team": "AC Monza",
+      "away_team": "Como 1907",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 20.8,
+        "draw": 23.1,
+        "away": 56.1
+      }
+    },
+    {
+      "date": "2026-12-05T14:30:00Z",
+      "home_team": "1. FC Union Berlin",
+      "away_team": "Hamburger SV",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 32.2,
+        "draw": 26.2,
+        "away": 41.6
+      }
+    },
+    {
+      "date": "2026-12-05T14:30:00Z",
+      "home_team": "Bayer 04 Leverkusen",
+      "away_team": "Borussia Mönchengladbach",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 47.0,
+        "draw": 22.9,
+        "away": 30.0
+      }
+    },
+    {
+      "date": "2026-12-05T14:30:00Z",
+      "home_team": "RB Leipzig",
+      "away_team": "1. FSV Mainz 05",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 66.3,
+        "draw": 16.1,
+        "away": 17.6
+      }
+    },
+    {
+      "date": "2026-12-05T14:30:00Z",
+      "home_team": "SC Freiburg",
+      "away_team": "TSG 1899 Hoffenheim",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 34.1,
+        "draw": 27.0,
+        "away": 38.9
+      }
+    },
+    {
+      "date": "2026-12-05T14:30:00Z",
+      "home_team": "FC Augsburg",
+      "away_team": "1. FC Köln",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 35.9,
+        "draw": 23.8,
+        "away": 40.3
+      }
+    },
+    {
       "date": "2026-12-05T15:15:00Z",
       "home_team": "Rayo Vallecano de Madrid",
       "away_team": "Levante UD",
@@ -1234,6 +1786,18 @@
       }
     },
     {
+      "date": "2026-12-05T17:00:00Z",
+      "home_team": "Frosinone Calcio",
+      "away_team": "FC Internazionale Milano",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 36.2,
+        "draw": 20.1,
+        "away": 43.7
+      }
+    },
+    {
       "date": "2026-12-05T17:30:00Z",
       "home_team": "Villarreal CF",
       "away_team": "Real Sociedad de Fútbol",
@@ -1243,6 +1807,18 @@
         "home": 33.5,
         "draw": 24.2,
         "away": 42.3
+      }
+    },
+    {
+      "date": "2026-12-05T17:30:00Z",
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "SV Werder Bremen",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 30.4,
+        "draw": 25.5,
+        "away": 44.1
       }
     },
     {
@@ -1279,6 +1855,18 @@
         "home": 23.2,
         "draw": 17.8,
         "away": 59.0
+      }
+    },
+    {
+      "date": "2026-12-05T19:45:00Z",
+      "home_team": "SSC Napoli",
+      "away_team": "US Lecce",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 64.6,
+        "draw": 19.4,
+        "away": 16.0
       }
     },
     {
@@ -1378,22 +1966,34 @@
       }
     },
     {
+      "date": "2026-12-06T11:30:00Z",
+      "home_team": "Genoa CFC",
+      "away_team": "Torino FC",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 58.8,
+        "draw": 23.8,
+        "away": 17.4
+      }
+    },
+    {
       "date": "2026-12-06T13:00:00Z",
       "home_team": "CA Osasuna",
       "away_team": "Elche CF",
       "competition": "La Liga",
       "competition_code": "PD",
       "probabilities": {
-        "home": 32.3,
-        "draw": 35.3,
-        "away": 32.3
+        "home": 33.6,
+        "draw": 32.9,
+        "away": 33.6
       },
       "odds": {
         "bookmaker": "1xBet",
-        "updated_at": "2026-11-23T13:34:37Z",
-        "home": 2.11,
-        "draw": 3.91,
-        "away": 3.5
+        "updated_at": "2026-11-24T07:40:04Z",
+        "home": 2.14,
+        "draw": 3.69,
+        "away": 3.62
       }
     },
     {
@@ -1422,6 +2022,18 @@
     },
     {
       "date": "2026-12-06T14:00:00Z",
+      "home_team": "SS Lazio",
+      "away_team": "Atalanta BC",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 61.0,
+        "draw": 17.6,
+        "away": 21.4
+      }
+    },
+    {
+      "date": "2026-12-06T14:00:00Z",
       "home_team": "ES Troyes AC",
       "away_team": "Olympique Lyonnais",
       "competition": "Ligue 1",
@@ -1430,6 +2042,18 @@
         "home": 37.6,
         "draw": 29.9,
         "away": 32.5
+      }
+    },
+    {
+      "date": "2026-12-06T14:30:00Z",
+      "home_team": "FC Schalke 04",
+      "away_team": "Borussia Dortmund",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 13.4,
+        "draw": 33.3,
+        "away": 53.3
       }
     },
     {
@@ -1493,6 +2117,49 @@
       }
     },
     {
+      "date": "2026-12-06T16:30:00Z",
+      "home_team": "SV 07 Elversberg",
+      "away_team": "VfB Stuttgart",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 32.3,
+        "draw": 22.8,
+        "away": 44.9
+      }
+    },
+    {
+      "date": "2026-12-06T17:00:00Z",
+      "home_team": "Juventus FC",
+      "away_team": "Udinese Calcio",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 65.4,
+        "draw": 20.5,
+        "away": 14.1
+      }
+    },
+    {
+      "date": "2026-12-06T17:30:00Z",
+      "home_team": "Getafe CF",
+      "away_team": "Valencia CF",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 24.2,
+        "draw": 27.2,
+        "away": 48.6
+      },
+      "odds": {
+        "bookmaker": "Winamax (DE)",
+        "updated_at": "2026-11-24T07:38:47Z",
+        "home": 2.3,
+        "draw": 3.0,
+        "away": 3.1
+      }
+    },
+    {
       "date": "2026-12-06T18:00:00Z",
       "home_team": "GD Estoril Praia",
       "away_team": "Vitória SC",
@@ -1502,6 +2169,18 @@
         "home": 15.1,
         "draw": 21.5,
         "away": 63.3
+      }
+    },
+    {
+      "date": "2026-12-06T19:45:00Z",
+      "home_team": "AC Milan",
+      "away_team": "Parma Calcio 1913",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 59.8,
+        "draw": 19.5,
+        "away": 20.7
       }
     },
     {
@@ -1529,6 +2208,30 @@
       }
     },
     {
+      "date": "2026-12-07T17:30:00Z",
+      "home_team": "Venezia FC",
+      "away_team": "US Sassuolo Calcio",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 51.5,
+        "draw": 22.4,
+        "away": 26.2
+      }
+    },
+    {
+      "date": "2026-12-07T19:45:00Z",
+      "home_team": "ACF Fiorentina",
+      "away_team": "Cagliari Calcio",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 47.2,
+        "draw": 22.2,
+        "away": 30.6
+      }
+    },
+    {
       "date": "2026-12-07T20:15:00Z",
       "home_team": "FC Alverca",
       "away_team": "Moreirense FC",
@@ -1538,6 +2241,18 @@
         "home": 37.6,
         "draw": 29.9,
         "away": 32.5
+      }
+    },
+    {
+      "date": "2026-12-11T19:30:00Z",
+      "home_team": "Hamburger SV",
+      "away_team": "FC Schalke 04",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 34.6,
+        "draw": 30.9,
+        "away": 34.6
       }
     },
     {
@@ -1562,6 +2277,18 @@
         "home": 39.9,
         "draw": 30.6,
         "away": 29.5
+      }
+    },
+    {
+      "date": "2026-12-12T14:30:00Z",
+      "home_team": "SC Paderborn 07",
+      "away_team": "SV 07 Elversberg",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 36.4,
+        "draw": 23.0,
+        "away": 40.6
       }
     },
     {
