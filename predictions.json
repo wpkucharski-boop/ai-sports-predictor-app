@@ -1,7 +1,7 @@
 {
   "sport": "football",
   "competition": "Multiple Leagues",
-  "updated_at": "2026-11-27T08:42:13.478562+00:00",
+  "updated_at": "2026-11-28T08:25:59.097476+00:00",
   "model": "Poisson - ostatnie 5 meczow",
   "leagues": {
     "PL": "Premier League",
@@ -18,114 +18,6 @@
     "EC": "European Championship"
   },
   "predictions": [
-    {
-      "date": "2026-11-27T19:00:00Z",
-      "home_team": "FC Groningen",
-      "away_team": "Willem II Tilburg",
-      "competition": "Eredivisie",
-      "competition_code": "DED",
-      "probabilities": {
-        "home": 53.2,
-        "draw": 17.4,
-        "away": 29.4
-      }
-    },
-    {
-      "date": "2026-11-27T19:30:00Z",
-      "home_team": "SV Werder Bremen",
-      "away_team": "Borussia Mönchengladbach",
-      "competition": "Bundesliga",
-      "competition_code": "BL1",
-      "probabilities": {
-        "home": 58.4,
-        "draw": 22.1,
-        "away": 19.5
-      }
-    },
-    {
-      "date": "2026-11-27T19:45:00Z",
-      "home_team": "Venezia FC",
-      "away_team": "Bologna FC 1909",
-      "competition": "Serie A",
-      "competition_code": "SA",
-      "probabilities": {
-        "home": 12.1,
-        "draw": 20.0,
-        "away": 68.0
-      }
-    },
-    {
-      "date": "2026-11-27T19:45:00Z",
-      "home_team": "Stade Brestois 29",
-      "away_team": "Paris FC",
-      "competition": "Ligue 1",
-      "competition_code": "FL1",
-      "probabilities": {
-        "home": 31.1,
-        "draw": 24.5,
-        "away": 44.4
-      }
-    },
-    {
-      "date": "2026-11-27T20:00:00Z",
-      "home_team": "Nottingham Forest FC",
-      "away_team": "Chelsea FC",
-      "competition": "Premier League",
-      "competition_code": "PL",
-      "probabilities": {
-        "home": 33.4,
-        "draw": 28.3,
-        "away": 38.3
-      }
-    },
-    {
-      "date": "2026-11-27T20:00:00Z",
-      "home_team": "Levante UD",
-      "away_team": "Real Racing Club de Santander",
-      "competition": "La Liga",
-      "competition_code": "PD",
-      "probabilities": {
-        "home": 39.4,
-        "draw": 25.8,
-        "away": 34.8
-      }
-    },
-    {
-      "date": "2026-11-27T20:00:00Z",
-      "home_team": "Southampton FC",
-      "away_team": "Middlesbrough FC",
-      "competition": "Championship",
-      "competition_code": "ELC",
-      "probabilities": {
-        "home": 35.4,
-        "draw": 29.1,
-        "away": 35.4
-      }
-    },
-    {
-      "date": "2026-11-27T20:15:00Z",
-      "home_team": "CS Marítimo",
-      "away_team": "CD Nacional",
-      "competition": "Primeira Liga",
-      "competition_code": "PPL",
-      "probabilities": {
-        "home": 24.6,
-        "draw": 24.0,
-        "away": 51.4
-      }
-    },
-    {
-      "date": "2026-11-27T23:00:00Z",
-      "home_team": "Fluminense FC",
-      "away_team": "Cruzeiro EC",
-      "competition": "Brazilian Serie A",
-      "competition_code": "BSA",
-      "probabilities": {
-        "home": 36.2,
-        "draw": 27.7,
-        "away": 36.2
-      }
-    },
     {
       "date": "2026-11-28T12:30:00Z",
       "home_team": "Blackburn Rovers FC",
@@ -448,13 +340,6 @@
         "home": 31.4,
         "draw": 27.5,
         "away": 41.1
-      },
-      "odds": {
-        "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-27T08:38:52Z",
-        "home": 1.87,
-        "draw": 4.63,
-        "away": 3.56
       }
     },
     {
@@ -539,6 +424,13 @@
         "home": 58.8,
         "draw": 23.8,
         "away": 17.4
+      },
+      "odds": {
+        "bookmaker": "Pinnacle",
+        "updated_at": "2026-11-28T08:22:37Z",
+        "home": 1.19,
+        "draw": 8.0,
+        "away": 13.29
       }
     },
     {
@@ -599,6 +491,13 @@
         "home": 41.2,
         "draw": 21.6,
         "away": 37.2
+      },
+      "odds": {
+        "bookmaker": "Winamax (DE)",
+        "updated_at": "2026-11-28T08:22:16Z",
+        "home": 2.5,
+        "draw": 3.5,
+        "away": 2.3
       }
     },
     {
@@ -647,13 +546,6 @@
         "home": 28.2,
         "draw": 32.6,
         "away": 39.1
-      },
-      "odds": {
-        "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-27T08:38:58Z",
-        "home": 2.15,
-        "draw": 3.29,
-        "away": 3.81
       }
     },
     {
@@ -762,13 +654,6 @@
         "home": 26.6,
         "draw": 19.9,
         "away": 53.5
-      },
-      "odds": {
-        "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-27T08:38:52Z",
-        "home": 2.76,
-        "draw": 3.88,
-        "away": 2.43
       }
     },
     {
@@ -1114,9 +999,9 @@
       "competition": "Premier League",
       "competition_code": "PL",
       "probabilities": {
-        "home": 42.9,
-        "draw": 29.5,
-        "away": 27.6
+        "home": 38.9,
+        "draw": 27.0,
+        "away": 34.1
       }
     },
     {
@@ -1126,9 +1011,9 @@
       "competition": "Premier League",
       "competition_code": "PL",
       "probabilities": {
-        "home": 60.6,
-        "draw": 21.2,
-        "away": 18.3
+        "home": 53.7,
+        "draw": 21.6,
+        "away": 24.7
       }
     },
     {
@@ -1234,9 +1119,9 @@
       "competition": "Brazilian Serie A",
       "competition_code": "BSA",
       "probabilities": {
-        "home": 28.6,
-        "draw": 28.0,
-        "away": 43.4
+        "home": 27.6,
+        "draw": 29.5,
+        "away": 42.9
       }
     },
     {
@@ -1342,9 +1227,9 @@
       "competition": "Eredivisie",
       "competition_code": "DED",
       "probabilities": {
-        "home": 49.7,
-        "draw": 17.4,
-        "away": 32.9
+        "home": 44.2,
+        "draw": 18.7,
+        "away": 37.1
       }
     },
     {
@@ -1366,9 +1251,9 @@
       "competition": "Serie A",
       "competition_code": "SA",
       "probabilities": {
-        "home": 29.6,
-        "draw": 19.0,
-        "away": 51.5
+        "home": 25.8,
+        "draw": 18.9,
+        "away": 55.4
       }
     },
     {
@@ -1381,6 +1266,13 @@
         "home": 23.1,
         "draw": 23.1,
         "away": 53.8
+      },
+      "odds": {
+        "bookmaker": "Pinnacle",
+        "updated_at": "2026-11-28T08:22:37Z",
+        "home": 5.54,
+        "draw": 4.83,
+        "away": 1.5
       }
     },
     {
@@ -1414,9 +1306,21 @@
       "competition": "Primeira Liga",
       "competition_code": "PPL",
       "probabilities": {
-        "home": 69.3,
-        "draw": 18.4,
-        "away": 12.2
+        "home": 67.4,
+        "draw": 19.4,
+        "away": 13.1
+      }
+    },
+    {
+      "date": "2026-12-05T12:30:00Z",
+      "home_team": "Chelsea FC",
+      "away_team": "Liverpool FC",
+      "competition": "Premier League",
+      "competition_code": "PL",
+      "probabilities": {
+        "home": 13.1,
+        "draw": 19.4,
+        "away": 67.4
       }
     },
     {
@@ -1462,9 +1366,9 @@
       "competition": "Championship",
       "competition_code": "ELC",
       "probabilities": {
-        "home": 69.9,
-        "draw": 18.9,
-        "away": 11.2
+        "home": 58.6,
+        "draw": 22.9,
+        "away": 18.5
       }
     },
     {
@@ -1474,9 +1378,9 @@
       "competition": "La Liga",
       "competition_code": "PD",
       "probabilities": {
-        "home": 36.8,
-        "draw": 26.4,
-        "away": 36.8
+        "home": 46.7,
+        "draw": 24.7,
+        "away": 28.6
       }
     },
     {
@@ -1510,9 +1414,9 @@
       "competition": "Bundesliga",
       "competition_code": "BL1",
       "probabilities": {
-        "home": 47.0,
-        "draw": 22.9,
-        "away": 30.0
+        "home": 45.1,
+        "draw": 22.0,
+        "away": 32.8
       }
     },
     {
@@ -1549,13 +1453,6 @@
         "home": 35.9,
         "draw": 23.8,
         "away": 40.3
-      },
-      "odds": {
-        "bookmaker": "Pinnacle",
-        "updated_at": "2026-11-27T08:38:52Z",
-        "home": 2.13,
-        "draw": 3.85,
-        "away": 3.14
       }
     },
     {
@@ -1595,15 +1492,27 @@
       }
     },
     {
+      "date": "2026-12-05T15:00:00Z",
+      "home_team": "Wolverhampton Wanderers FC",
+      "away_team": "Southampton FC",
+      "competition": "Championship",
+      "competition_code": "ELC",
+      "probabilities": {
+        "home": 48.6,
+        "draw": 27.2,
+        "away": 24.2
+      }
+    },
+    {
       "date": "2026-12-05T15:15:00Z",
       "home_team": "Rayo Vallecano de Madrid",
       "away_team": "Levante UD",
       "competition": "La Liga",
       "competition_code": "PD",
       "probabilities": {
-        "home": 32.5,
-        "draw": 29.9,
-        "away": 37.6
+        "home": 42.9,
+        "draw": 29.5,
+        "away": 27.6
       }
     },
     {
@@ -1613,9 +1522,9 @@
       "competition": "Eredivisie",
       "competition_code": "DED",
       "probabilities": {
-        "home": 21.4,
-        "draw": 16.4,
-        "away": 62.2
+        "home": 22.0,
+        "draw": 17.2,
+        "away": 60.8
       }
     },
     {
@@ -1625,9 +1534,9 @@
       "competition": "Primeira Liga",
       "competition_code": "PPL",
       "probabilities": {
-        "home": 22.2,
-        "draw": 24.0,
-        "away": 53.8
+        "home": 32.2,
+        "draw": 26.2,
+        "away": 41.6
       }
     },
     {
@@ -1673,9 +1582,9 @@
       "competition": "Bundesliga",
       "competition_code": "BL1",
       "probabilities": {
-        "home": 30.4,
-        "draw": 25.5,
-        "away": 44.1
+        "home": 31.1,
+        "draw": 24.5,
+        "away": 44.4
       }
     },
     {
@@ -1769,9 +1678,16 @@
       "competition": "Ligue 1",
       "competition_code": "FL1",
       "probabilities": {
-        "home": 62.3,
-        "draw": 19.7,
-        "away": 18.0
+        "home": 58.6,
+        "draw": 22.9,
+        "away": 18.5
+      },
+      "odds": {
+        "bookmaker": "Pinnacle",
+        "updated_at": "2026-11-28T08:22:37Z",
+        "home": 1.42,
+        "draw": 4.83,
+        "away": 6.94
       }
     },
     {
@@ -1844,13 +1760,6 @@
         "home": 33.6,
         "draw": 32.9,
         "away": 33.6
-      },
-      "odds": {
-        "bookmaker": "1xBet",
-        "updated_at": "2026-11-27T08:38:25Z",
-        "home": 2.14,
-        "draw": 3.69,
-        "away": 3.62
       }
     },
     {
@@ -1863,6 +1772,13 @@
         "home": 61.5,
         "draw": 18.3,
         "away": 20.2
+      },
+      "odds": {
+        "bookmaker": "Marathon Bet",
+        "updated_at": "2026-11-28T08:22:49Z",
+        "home": 1.24,
+        "draw": 6.0,
+        "away": 9.8
       }
     },
     {
@@ -1911,13 +1827,6 @@
         "home": 13.4,
         "draw": 33.3,
         "away": 53.3
-      },
-      "odds": {
-        "bookmaker": "1xBet",
-        "updated_at": "2026-11-27T08:38:53Z",
-        "home": 4.41,
-        "draw": 4.25,
-        "away": 1.81
       }
     },
     {
@@ -1975,9 +1884,9 @@
       "competition": "Ligue 1",
       "competition_code": "FL1",
       "probabilities": {
-        "home": 26.2,
-        "draw": 22.4,
-        "away": 51.5
+        "home": 23.9,
+        "draw": 22.3,
+        "away": 53.7
       }
     },
     {
@@ -2014,13 +1923,6 @@
         "home": 24.2,
         "draw": 27.2,
         "away": 48.6
-      },
-      "odds": {
-        "bookmaker": "Winamax (DE)",
-        "updated_at": "2026-11-27T08:38:27Z",
-        "home": 2.3,
-        "draw": 3.0,
-        "away": 3.1
       }
     },
     {
@@ -2060,6 +1962,18 @@
       }
     },
     {
+      "date": "2026-12-06T20:00:00Z",
+      "home_team": "Club Atlético de Madrid",
+      "away_team": "Real Betis Balompié",
+      "competition": "La Liga",
+      "competition_code": "PD",
+      "probabilities": {
+        "home": 51.3,
+        "draw": 26.1,
+        "away": 22.6
+      }
+    },
+    {
       "date": "2026-12-06T20:30:00Z",
       "home_team": "FC Famalicão",
       "away_team": "Académico de Viseu FC",
@@ -2078,9 +1992,9 @@
       "competition": "Serie A",
       "competition_code": "SA",
       "probabilities": {
-        "home": 51.5,
-        "draw": 22.4,
-        "away": 26.2
+        "home": 53.7,
+        "draw": 22.3,
+        "away": 23.9
       }
     },
     {
@@ -2337,6 +2251,18 @@
     },
     {
       "date": "2026-12-11T19:45:00Z",
+      "home_team": "Udinese Calcio",
+      "away_team": "Frosinone Calcio",
+      "competition": "Serie A",
+      "competition_code": "SA",
+      "probabilities": {
+        "home": 26.0,
+        "draw": 20.4,
+        "away": 53.6
+      }
+    },
+    {
+      "date": "2026-12-11T19:45:00Z",
       "home_team": "AJ Auxerre",
       "away_team": "Toulouse FC",
       "competition": "Ligue 1",
@@ -2372,6 +2298,18 @@
       }
     },
     {
+      "date": "2026-12-12T14:30:00Z",
+      "home_team": "VfB Stuttgart",
+      "away_team": "1. FC Union Berlin",
+      "competition": "Bundesliga",
+      "competition_code": "BL1",
+      "probabilities": {
+        "home": 53.8,
+        "draw": 25.0,
+        "away": 21.2
+      }
+    },
+    {
       "date": "2026-12-12T15:30:00Z",
       "home_team": "FC Utrecht",
       "away_team": "Fortuna Sittard",
@@ -2402,9 +2340,9 @@
       "competition": "Ligue 1",
       "competition_code": "FL1",
       "probabilities": {
-        "home": 45.3,
-        "draw": 21.4,
-        "away": 33.3
+        "home": 49.2,
+        "draw": 23.1,
+        "away": 27.7
       }
     },
     {
@@ -2417,6 +2355,42 @@
         "home": 71.2,
         "draw": 15.8,
         "away": 13.0
+      }
+    },
+    {
+      "date": "2026-12-12T18:00:00Z",
+      "home_team": "CS Marítimo",
+      "away_team": "Rio Ave FC",
+      "competition": "Primeira Liga",
+      "competition_code": "PPL",
+      "probabilities": {
+        "home": 31.1,
+        "draw": 24.5,
+        "away": 44.4
+      }
+    },
+    {
+      "date": "2026-12-12T19:45:00Z",
+      "home_team": "OGC Nice",
+      "away_team": "Racing Club de Lens",
+      "competition": "Ligue 1",
+      "competition_code": "FL1",
+      "probabilities": {
+        "home": 44.9,
+        "draw": 22.8,
+        "away": 32.3
+      }
+    },
+    {
+      "date": "2026-12-12T20:00:00Z",
+      "home_team": "PEC Zwolle",
+      "away_team": "SBV Excelsior",
+      "competition": "Eredivisie",
+      "competition_code": "DED",
+      "probabilities": {
+        "home": 79.5,
+        "draw": 13.3,
+        "away": 7.2
       }
     },
     {
